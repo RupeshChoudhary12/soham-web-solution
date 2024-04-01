@@ -4,6 +4,8 @@ import Orange from "../assets/orange-nav.png"
 import Search from "../assets/search.png"
 import Menu from "../assets/menu.png"
 import Soham from "../assets/soham.svg"
+import { Link } from "react-router-dom"
+
 
 
 const Nav = () => {
@@ -34,27 +36,27 @@ const Nav = () => {
           , width: "100%", flexWrap:"wrap"  , border:"0" , textDecoration: "none"
         }} >
 
-          <a href="/" variant="" color="inherit" component="div" sx={{margin:"10px" ,border : "0" ,  border: "0" , fontSize:"100%"}}>
+          <Link to="/" variant="" color="inherit" component="div" sx={{margin:"10px" ,border : "0" ,  border: "0" , fontSize:"100%"}}>
             HOME
-          </a>
-          <a  href="/about" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
+          </Link>
+          <Link  to="/about" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
             ABOUT
-          </a>
-          <a href="/service" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
+          </Link>
+          <Link to="/service" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
             SERVICE
-          </a>
-          <a href="/" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
+          </Link>
+          <Link to="/" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
             PAGES
-          </a>
-          <a href="/blog" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
+          </Link>
+          <Link to="/blog" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
             BLOG
-          </a>
-          <a href="/form" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
+          </Link>
+          <Link to="/form" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
               FORM
-          </a>
-          <a href="/contact" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
+          </Link>
+          <Link to="/contact" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
             CONTACT
-          </a>
+          </Link>
           <img className="search" src={Search} alt=""  sx={{margin:"5px"}}/>
           <img className="search"  src={Menu} alt=""  sx={{margin:"5px"}} />
           <Button  className="bttt"  variant="contained" sx={{ width: "130px", borderRadius: "20px",
