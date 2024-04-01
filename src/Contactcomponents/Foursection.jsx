@@ -47,7 +47,7 @@ const Foursection = () => {
 
         <Box sx={{
           color: "white", width: "330px", borderRadius: "5px", height: "300px",
-          border: "1px solid   #FE4C1C", display: "FLEX", alignItems: "center",
+          border: "1px solid   #FE4C1C", display: "FLEX", alignItems: "center",background: "#0160E7" ,
           justifyContent: "center", flexDirection: "column"
         }}>
           <img className="icon-contact" src={Message} alt="" />
