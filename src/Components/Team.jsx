@@ -133,7 +133,7 @@ const Team = () => {
       </a></li>
 </ul>       
                 </Box>
-            {/* <img className="team1" /> */}
+            <img className="team1" />
             <CardContent sx={{ width: "410px", padding: "30px", height: "150px" }}>
               <Typography color="#0160E7" gutterBottom variant="h6" component="div" sx={{ fontWeight: "800" }}>
                 Anil Meena
