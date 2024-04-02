@@ -18,7 +18,7 @@ const App = () => {
                         team of developers in web development using Larave, Codelgniter, Wordpress, WooCommerce, and Shopify. In addition
                         to these platforms, Soham Web Solution also speciallizes in working with React js and APIS.
                     </Typography>
-                    <Box sx={{ marginTop: "25px" }}>
+                    <Box className="ned" sx={{ marginTop: "25px" }}>
                         <Button variant="contained" sx={{  marginRight: "20px", fontSize: "16px",
                          height: "50px", width: "190px", background:"#0160E7",
                             borderRadius: "30px"

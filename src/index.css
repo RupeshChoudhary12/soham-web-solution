@@ -19,6 +19,18 @@ a{
 
 }
 
+.blog-button-section{
+
+}
+
+.how button:hover{
+    background-color: #FE4C1C;
+}
+
+.howw button{
+    background-color: #FE4C1C;
+}
+
 .nav-logo-new {
 
     width: 50%;
@@ -287,6 +299,8 @@ border: none;
 .blogimg1 {
     width: 100%;
     height: 350px;
+    background-image: url("./blogsimg/blog2.png");
+
    
     
 
@@ -335,27 +349,27 @@ border: none;
 }
 
 .blogimg51 {
-    width: 300px;
-    height: 80px;
-    background-image: url("./blogsimg/blog-section2.png");
+    width: 400px;
+    height: 100px;
+    background-image: url("src/assets/blog image/Blog1.png");
     background-position: center;
     background-size: cover;
     object-fit: cover;
 
 }
 .blogimg52 {
-    width: 300px;
-    height: 80px;
-    background-image: url("./blogsimg/blog-section2.png");
+    width: 400px;
+    height: 100px;
+    background-image: url("src/assets/blog image/blog2.png");
     background-position: center;
     background-size: cover;
     object-fit: cover;
 
 }
 .blogimg53 {
-    width: 300px;
-    height: 80px;
-    background-image: url("./blogsimg/blogsection3.png");
+    width: 400px;
+    height: 100px;
+    background-image: url("src/assets/blog image/blog7.png");
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -365,7 +379,11 @@ border: none;
 
 .listItem{
     list-style: none;
-    padding-left: 5px;
+    background-color: #f00;
+}
+
+.ght {
+    color: #0077b5;
 }
 
 .search-input{
@@ -400,7 +418,14 @@ border: none;
         display: none;
        }
 
+       .nav-or{
+        display: none;
+       }
 
+
+       .ned button {
+        margin: 5px;
+      }
 
     .nav {
         height: 100px;
@@ -408,10 +433,6 @@ border: none;
     }
 
     .nav-bar {
-        display: none;
-    }
-
-    .nav-or {
         display: none;
     }
 

@@ -58,28 +58,28 @@ const Footer = () => {
                                              <div className="book">
                                                   <li>
                                                        <a  href="">
-                                                            <i class="fa-brands fa-facebook-f h6 m-1 icon aa"></i>
+                                                            <i className="fa-brands fa-facebook-f h6 m-1 icon aa"></i>
                                                        </a>
                                                   </li>
                                              </div>
                                              <div className="book">
                                                   <li>
                                                        <a href="">
-                                                            <i class="fa-brands fa-instagram icon "></i>
+                                                            <i className="fa-brands fa-instagram icon "></i>
                                                        </a>
                                                   </li>
                                              </div>
                                              <div className="book">
-                                                  <li><a href="">                                                  <i class="fa-brands fa-x-twitter icon"></i>
+                                                  <li><a href="">                                                  <i className="fa-brands fa-x-twitter icon"></i>
                                                   </a></li>
                                              </div>
                                              <div className="book">
-                                                  <li><a href=""> <i class="fa-brands fa-youtube icon">
+                                                  <li><a href=""> <i className="fa-brands fa-youtube icon">
                                                   </i> </a></li>
                                              </div>
                                              <div className="book">
                                                   <li>
-                                                       <a href="">                                                        <i class="fa-brands fa-wordpress icon"></i>
+                                                       <a href="">                                                        <i className="fa-brands fa-wordpress icon"></i>
                                                        </a>
                                                   </li>
                                              </div>
