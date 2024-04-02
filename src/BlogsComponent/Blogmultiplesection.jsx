@@ -3,19 +3,24 @@ import Footer from "../Components/Footer"
 import Card1 from "../blogsimg/card1.png"
 import Card2 from "../blogsimg/card2.png"
 import Card3 from "../blogsimg/card3.png"
-import Icon1 from "../blogsimg/icon1.png"
-import Icon2 from "../blogsimg/icon2.png"
-import Icon3 from "../blogsimg/icon3.png"
-import Icon4 from "../blogsimg/icon4.png"
-import Icon5 from "../blogsimg/icon5.png"
-import Icon6 from "../blogsimg/icon6.png"
-import Icon7 from "../blogsimg/icon7.png"
+
 import Left from "../blogsimg/left.png"
 import Right from "../blogsimg/right.png"
 import Search from "../blogsimg/search.png"
 import { useDispatch, useSelector } from "react-redux"
 import { useEffect } from "react"
 import { fetchcontents } from "../features/contents/contentSlice"
+import Blog1 from '../assets/Blog1.png'
+import Blog2 from '../assets/blog2.png'
+import Blog3 from '../assets/blog3.png'
+import Blog4 from '../assets/blog4.png'
+import Blog5 from '../assets/blog5.png'
+import Blog6 from '../assets/blog6.png'
+import Blog7 from '../assets/blog7.png'
+import Blog8 from '../assets/blog8.png'
+import Blog9 from '../assets/blog9.png'
+import Blog10 from '../assets/blog10.png'
+
 
 
 
@@ -68,7 +73,7 @@ const Blogmultiplesection = () => {
                 }}>
                     <Box sx={{ width: "100%" }}>
                         {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src="src\assets\blogimage\blog1.png" alt="" />
+                        <img className="w-100" src={Blog1} alt="" />
 
                     </Box>
                     <Box sx={{ marginTop: "10px", width: "100%" }}>
@@ -114,7 +119,7 @@ const Blogmultiplesection = () => {
 
                     <Box sx={{ width: "100%" , marginTop : "20px" }}>
                         {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src="src\assets\blogimage\blog2.png" alt="" />
+                        <img className="w-100" src={Blog2} alt="" />
 
                     </Box>
 
@@ -163,7 +168,7 @@ const Blogmultiplesection = () => {
 
                     <Box sx={{ width: "100%" , marginTop : "20px" }}>
                         {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src="src\assets\blogimage\blog3.png" alt="" />
+                        <img className="w-100" src={Blog3} alt="" />
 
                     </Box>
 
@@ -213,7 +218,7 @@ const Blogmultiplesection = () => {
 
                     <Box sx={{ width: "100%" , marginTop : "20px"}}>
                         {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src="src\assets\blogimage\blog4.png" alt="" />
+                        <img className="w-100" src={Blog4} alt="" />
 
                     </Box>
                     <Box sx={{ marginTop: "10px", width: "100%" }}>
@@ -259,7 +264,7 @@ const Blogmultiplesection = () => {
 
                     <Box sx={{ width: "100%" , marginTop : "20px" }}>
                         {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src="src\assets\blogimage\blog5.png" alt="" />
+                        <img className="w-100" src={Blog5} alt="" />
 
                     </Box>
 
@@ -305,7 +310,7 @@ const Blogmultiplesection = () => {
 
                     <Box sx={{ width: "100%" ,marginTop : "20px" }}>
                         {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src="src\assets\blogimage\blog6.png" alt="" />
+                        <img className="w-100" src={Blog6} alt="" />
 
                     </Box>
 
@@ -350,7 +355,7 @@ const Blogmultiplesection = () => {
 
                         <Box sx={{ width: "100%" , marginTop : "20px" }}>
                         {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src="src\assets\blogimage\blog7.png" alt="" />
+                        <img className="w-100" src={Blog7} alt="" />
 
                     </Box>
 
@@ -398,7 +403,7 @@ const Blogmultiplesection = () => {
 
                         <Box sx={{ width: "100%" , marginTop : "20px" }}>
                         {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src="src\assets\blogimage\blog8.png" alt="" />
+                        <img className="w-100" src={Blog8} alt="" />
 
                     </Box>
 
@@ -447,7 +452,7 @@ const Blogmultiplesection = () => {
 
                         <Box sx={{ width: "100%" , marginTop : "20px" }}>
                         {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src="src\assets\blogimage\blog9.png" alt="" />
+                        <img className="w-100" src={Blog9} alt="" />
 
                     </Box>
 
@@ -493,7 +498,7 @@ const Blogmultiplesection = () => {
 
                         <Box sx={{ width: "100%" , marginTop : "20px" }}>
                         {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src="src\assets\blogimage\blog10.png" alt="" />
+                        <img className="w-100" src={Blog10} alt="" />
                     </Box>
 
                     <Box sx={{ marginTop: "10px", width: "100%" }}>
