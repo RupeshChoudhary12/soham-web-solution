@@ -3,20 +3,23 @@ import Php from "../assets/php.png"
 import Design from "../assets/design.svg"
 const Service = () => {
    return (
-      <Box className="servi" sx={{ width:"100%", background: "#F0F6FF  ", padding: "70px 0px" }} >
+      <Box className="servi" sx={{ width:"100%", background: "#F0F6FF  ", padding: "70px 0px" , marginTop : "40px"}} >
          <Container >
+         <Typography sx={{ fontWeight: "900", fontSize : "23px" ,  color:"#0160E7" ,  textAlign: "start"}}>OUR BEST SERVICES</Typography>
+
             <Box className="service" sx={{
-               padding: "20px", width: "60%", display: "flex", alignItems: "start"
-               , justifyContent: "start", flexDirection: "column",
+               padding : "20px 0px",
+               width: "100%",
+           
+               
             }}>
 
-               <Typography sx={{ fontWeight: "900",  color:"#0160E7"}}><li>OUR BEST SERVICES</li></Typography>
-               <Typography variant="" sx={{ marginTop: "20px", fontSize: "30px", fontWeight: "650" ,color:"black" }}>
-                  We Are Committed To Providding Our Costumers With Exptional.</Typography>
+               <Typography   variant="" sx={{ marginTop: "30px", fontSize: "30px", alignItems :"center ",fontWeight: "650" ,color:"black" }}>
+                  We Are Committed To Providding Our <br /> Costumers With Exptional.</Typography>
 
             </Box>
          </Container>
-         <Container >
+         <Container-fluid  >
             <Box sx={{  
                width: "100%", height: "100%", display: "FLEX", alignItems: "center",
                justifyContent: "center" ,flexWrap:"wrap"
@@ -125,7 +128,7 @@ const Service = () => {
 
             </Box>
 
-         </Container>
+         </Container-fluid>
 
       </Box>
    )

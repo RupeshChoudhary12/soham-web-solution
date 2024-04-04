@@ -5,6 +5,7 @@ import Search from "../assets/search.png"
 import Menu from "../assets/menu.png"
 import Soham from "../assets/soham.svg"
 import { Link } from "react-router-dom"
+import IconSection from "./IconSection"
 
 
 
@@ -19,56 +20,132 @@ const Nav = () => {
         , top: "45px", left:"50px"
       }}>
           <img className="nav-logo-new" src={Soham} alt="" />
+          
       
       </Box>
       <img className="orange-nav" src={Orange} alt="" />
+      
      
       
-       <Box className="nav-or">
+       <Box className="nav-or h-50">
+        
           
-      <Box  sx={{ 
-        width: "60%", height: "70px", display: "flex",border: "0" ,
+      <Box  sx={{  
+        width: "60%", display: "flex",border: "0" ,
         alignItems: "center", justifyContent: "center", position: "relative", top: "-100px", right:"-38%",
       }} >
 
         <Box sx={{
+        position : "absolute",
+          
           display: "flex", alignItems: "center", justifyContent: "space-around"
           , width: "100%", flexWrap:"wrap"  , border:"0" , textDecoration: "none"
         }} >
 
-          <Link to="/" variant="" color="inherit" component="div" sx={{margin:"10px" ,border : "0" ,  border: "0" , fontSize:"100%"}}>
+          
+
+         <div className="home w-100 d-flex align-item-center justify-content-around  flex-wrap">
+         <Link className="xy" to="/" sx={{margin:"10px" , fontSize:"100%"}}>
             HOME
           </Link>
-          <Link  to="/about" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
+          <Link  className="xy" to="/about"  sx={{margin:"10px", fontSize:"100%"}}>
             ABOUT
           </Link>
-          <Link to="/service" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
+          <Link className="xy" to="/service" sx={{margin:"10px", fontSize:"100%"}}>
             SERVICE
           </Link>
-          <Link to="/" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
+          <Link className="xy" to="/pages"   sx={{margin:"10px", fontSize:"100%"}}>
             PAGES
           </Link>
-          <Link to="/blog" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
+          <Link className="xy" to="/blog"   sx={{margin:"10px", fontSize:"100%"}}>
             BLOG
           </Link>
-          <Link to="/form" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
+          <Link className="xy" to="/form"  sx={{margin:"10px", fontSize:"100%"}}>
               FORM
           </Link>
-          <Link to="/contact" variant="" color="inherit" component="div"  sx={{margin:"10px", fontSize:"100%"}}>
+          <Link className="xy" to="/contact"  sx={{margin:"10px", fontSize:"100%"}}>
             CONTACT
           </Link>
-          <img className="search" src={Search} alt=""  sx={{margin:"5px"}}/>
-          <img className="search"  src={Menu} alt=""  sx={{margin:"5px"}} />
+          <Link className="xy" to="/project"  sx={{margin:"10px", fontSize:"100%"}}>
+            PROJECT
+          </Link>
+       
           <Button  className="bttt"  variant="contained" sx={{ width: "130px", borderRadius: "20px",
           fontSize:"80%"
           }}>GET STARTED</Button>
+         </div>
+
+   
+
+    
+
 
         </Box>
       </Box>
        </Box>
+            <div className="ooff ">
+         <nav class="navbar  fixed-top">
+  <div class="container-fluid">
+    <a href=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="  offcanvas-header bg-primary ">
+      <img className=" nav-logo-new ms-3 mt-3" src={Soham} alt="" />
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body bg-dark">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+      <div className="down text-dark">
+            
+      <Link to="/"  sx={{margin:"10px" ,border : "0" ,  border: "0" , fontSize:"100%" , color : "Black" }}>
+            HOME
+          </Link>
+          <Link  to="/about"  sx={{margin:"10px", fontSize:"100%"}}>
+            ABOUT
+          </Link>
+          <Link to="/service"  sx={{margin:"10px", fontSize:"100%"}}>
+            SERVICE
+          </Link>
+          <Link to="/pages"  sx={{margin:"10px", fontSize:"100%"}}>
+            PAGES
+          </Link>
+          <Link to="/blog"   sx={{margin:"10px", fontSize:"100%" , color : "Black"}}>
+            BLOG
+          </Link>
+          <Link to="/form"   sx={{margin:"10px", fontSize:"100%"}}>
+              FORM
+          </Link>
+          <Link to="/contact"    sx={{margin:"10px", fontSize:"100%"}}>
+            CONTACT
+          </Link>
+
+          <Link to="/project"    sx={{margin:"10px", fontSize:"100%"}}>
+            PROJECT
+          </Link>
+       
+         
+         
+      </div>
+          
+      <Typography sx={{margin:"10px ", fontSize:"90%"}}>7984740805</Typography>
+      <IconSection/>
 
 
+    
+        </ul>
+        
+        
+      </div>
+    </div>
+  </div>
+</nav>
+         </div> 
+       
 
+
+      
 
     </>
   )

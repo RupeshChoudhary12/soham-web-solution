@@ -7,11 +7,11 @@ const App = () => {
         <Container>
             <Box className="homeSection" sx={{
                 width: "100%", minHeight: "600px", display: "flex",
-                alignItems: "center", justifyContent: "space-between", marginBottom: "50px"
+                alignItems: "center", justifyContent: "space-between", marginBottom: "50px" ,
             }}>
                 <Box sx={{ background: "white", width: "55%", height: "100%", display: "flex", alignItems: "start", justifyContent: "space-around", flexDirection: "column" }}>
-                    <Typography variant="" sx={{ color: " #FE4C1C", marginBottom: "20px", fontWeight: "900" }} >INNOVATIVE FEATURES & SUPPORT</Typography>
-                    <Typography variant="h3" sx={{ color: " #0160E7", fontWeight: "900" }} >SOHAM WEB SOLUTION</Typography>
+                    <Typography variant="" sx={{ color: " #FE4C1C", marginBottom: "20px", fontWeight: "700" }} >INNOVATIVE FEATURES & SUPPORT</Typography>
+                    <Typography variant="h3" sx={{ color: " #0160E7", fontWeight: "900" }} >Soham Web Solution</Typography>
                     <Typography variant="" sx={{ fontSize: "40px", color:  " #0160E7", fontWeight: "700", marginBottom: "25px" }} >Website Development company</Typography>
                     <Typography sx={{ fontSize: "12.5px", color: "black" }} >  
                         We are speciallizes in building website and application using various platforms and frameworks. We have expert

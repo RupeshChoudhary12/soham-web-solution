@@ -1,5 +1,7 @@
 import Footer from "../Components/Footer"
 import Formsection from "../Components/Formsection"
+import {  Typography } from "@mui/material"
+
 
 
 import Foursection from "./Foursection"
@@ -12,6 +14,7 @@ const Mainform = () => {
     return (
         <>
             <Foursection />
+
              <Formsection /> 
             <Mapsection />
             <Footer />

@@ -76,7 +76,7 @@ function FormValidation() {
                 <Box className="form1" sx={{ width: "100%", padding: "70px 0px" }}>
 
                     <Box>
-                        <Typography sx={{ color: " #FE4C1C", fontWeight: "900" }}><li>GET IN TOUCH</li></Typography>
+                        <Typography sx={{ color: " #FE4C1C", fontWeight: "900" , fontSize : "23px" }}>GET IN TOUCH</Typography>
                         <Typography variant="h5" sx={{
                             width: "80%", marginTop: "20px", fontSize: "30px", fontWeight: "650", color: "black"
                         }}>Empowering Tomorrow's Energy Landscape through Cutting-Edge Solar Solutions for a Sustainable Future.
@@ -185,21 +185,10 @@ function FormValidation() {
                             {errors.number && <span>{errors.number}</span>}
                         </Box>
 
-                        < Box sx={{ width: "100%" }}>
-                            <input
-                                id="number"
-                                placeholder="Submit"
-                                className="input1 text-start mt-2"
-                                type="submit"
-                                name="submit"
-                                value={formData.submit}
-                                onChange={handleChange}
-                                required />
-                            {/* {errors.email && <span>{errors.email}</span>} */}
-                        </Box>
+                  
 
                         <textarea id="text-area"
-                            className="text-area "
+                            className="text-area p-1 "
                             placeholder="Write A Message"
 
                             name="textarea"

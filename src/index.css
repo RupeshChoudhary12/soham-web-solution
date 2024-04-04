@@ -1,6 +1,6 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 
 
@@ -15,8 +15,59 @@ a{
     height: 160px;
     width: 50%;
 
+}
+
+.down {
+    height:250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    flex-direction: column;
+}
 
 
+.company {
+    height: 700px;
+    width: 100%;
+}
+
+
+
+.x img {
+    margin-top: 80px;
+    height: 300px;
+    width: 350px;
+    border: 10px white;
+}
+
+.y img {
+    height: 300px;
+    width: 350px;
+    margin-top: 280px;
+    margin-left: 100px;
+}
+.z img {
+    height: 350px;
+    width: 50%;
+    margin-top: 180px;
+    margin-left: 300px;
+    background-position: center;
+    background-size: cover ;
+}
+
+.exp{
+    color: #FE4C1C;
+}
+
+.cost{
+    height: 100%;
+    width: 50%;
+}
+
+.home{
+    margin-top: 80px;
 }
 
 .blog-button-section{
@@ -40,7 +91,7 @@ a{
 
 .phone-img {
 
-    height: 22px;
+    height: 15px;
 }
 
 .orange-nav {
@@ -54,12 +105,12 @@ a{
 
 }
 
+
+
 .white {
     background-image: url("./assets/navbar.png");
     background-repeat: no-repeat;
     position: absolute;
-    top: 0px;
-    right: 0px;
 
 
 }
@@ -103,6 +154,26 @@ a{
     margin: 20px 0px;
 }
 
+.off {
+    width: 100%;
+    height: 100%;
+ 
+    font-size: 25px;
+    list-style: none;
+    font-weight: 400;
+    
+}
+.off span {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.off span i {
+    color: #FE4C1C;
+}
+
+/*  */
 .blog-img {
     width: 330px;
     object-fit: cover;
@@ -126,9 +197,7 @@ a{
     object-fit: cover;
     height: 400px;
     background-position: center;
-    background-size: cover;
-    margin: 10px;
-    position: relative;
+    
 
 }
 
@@ -141,21 +210,28 @@ a{
 }
 
 .mark{
-    position: absolute;
     margin-top: -120px; 
-    margin-left: -150px;   
     width: 300px;
     border-radius: 50px 50px 50px 50px;
 
 }
 
+.ooff{
+    display: none;
+}
 
+.pro img{
+    width: 330px;
+    height: 350px;
+    border: 2px #0077b5;
+    background: teal;
 
-
+}
 .p {
     font-size: 12px;
 
 }
+
 
 .team {
     background-image: url("./assets//gray.png");
@@ -166,7 +242,9 @@ a{
     background-size: cover;
 }
 
-
+.pro {
+    border: 2px solid #0160E7;
+}
 
 .team1 {
     background-image: url("./assets/coo.png");
@@ -179,7 +257,7 @@ a{
 }
 
 .footer-input {
-    width: 100%px;
+    width: 100%;
     height: 50px;
     border-radius: 30px;
     padding-left: 15px;
@@ -229,7 +307,8 @@ background-color: "#0160E7";
     height: 35px;
     border: none;
     margin: "10px";
-    padding-left: 15px;
+    padding-left: 15px ;
+    border-radius: 5px;
     color: #FE4C1C;
     
     
@@ -249,23 +328,26 @@ font-weight: 500;
     width: 45%;
     height: 35px;
     border: none;
-    margin: "10px";
+    margin: 10px 15px ;
     padding-left: 15px;
+    border-radius: 5px;
     
 }
 
 
 .input1 {
-    width: 90%;
-    margin: 15px;
+    width: 95%;
+    margin: 15px 0px;
     height: 35px;
     padding: 10px;
 border: none;   
  background-color: white;
+ border-radius: 5px;
 }
 
+
 .text-area {
-    width: 90%;
+    width: 95%;
     height: 120px;
     margin: 15px;
     border: none;
@@ -400,6 +482,9 @@ border: none;
     
 }
 
+.oofff{
+    display: none;
+}
 
 /* BLOG SECTION */
 
@@ -412,31 +497,30 @@ border: none;
         margin-top: -60px;
 
     }
+    .xy {
+        display: none;
+    }
+    .oofff {
+        display: block;
+    }
 
-  
-       .mark{
+    .mark{
         display: none;
        }
 
-       .nav-or{
-        display: none;
-       }
-
-
+     
        .ned button {
         margin: 5px;
       }
 
+    
     .nav {
         height: 100px;
         width: 300px;
     }
 
-    .nav-bar {
-        display: none;
-    }
 
-
+    
     .orange-nav {
         display: none;
 
@@ -580,10 +664,24 @@ border: none;
 }
 
 @media (max-width:767px) {
-    .phone-img {
-        display: none;
-    }
+.home Button{
+    display: none;
+}
 
+
+
+/* .nav-bar {
+    display: none;
+} */
+.ooff {
+    display: block;
+}
+.nav-bar .white {
+    display: none;
+}
+.home Link {
+    display: none;
+}
     .align {
         display: "flex";
         align-items: center;
@@ -591,6 +689,21 @@ border: none;
         flex-wrap: wrap;
     }
 
+    .cost img {
+      display: none;
+    }
+
+    .cost {
+        display: none;
+    }
+
+    .off {
+        display: none;
+        flex-wrap: wrap;
+       
+    }
+
+  
 }
 
 @media (max-width:576px) {
@@ -603,7 +716,9 @@ border: none;
     }
 
 }
-
+.call {
+    height: 15px;
+}
 
 .hover:hover {
         transition: all .5s;
@@ -635,6 +750,16 @@ border: none;
         align-items: center;
         justify-content: center;
     }
+
+    .bookk{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
   
  
 
@@ -657,8 +782,7 @@ border: none;
     }
 
 
-
-
+    
   
 
   /*  */
@@ -746,13 +870,36 @@ border: none;
 
 
   }
+  .bookk li { 
+    list-style: none;
+
+
+  }
+
+  .foot:first-child{
+    background: #0077b5;
+  }
 
   .book li a {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     background-color: #FE4C1C;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
+    margin: 0 20px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #fff;
+    z-index: 1;
+  }
+  .bookk li a {
+    width: 30px;
+    height: 30px;
+    background-color: #0160E7;
+    text-align: center;
+    font-size: 17px;
     margin: 0 20px;
     display: block;
     border-radius: 50%;
@@ -767,8 +914,17 @@ border: none;
     transition: .5s;
     z-index: 3;
   }
+  .bookk li a .icon {
+    position: relative;
+    transition: .5s;
+    z-index: 3;
+  }
 
   .book li a:hover .icon {
+    transform: rotateY(360deg);
+    
+  }
+  .bookk li a:hover .icon {
     transform: rotateY(360deg);
     
   }
@@ -777,9 +933,59 @@ border: none;
     top: 0;
 
   }
-  
+  .bookk li a:hover:before {
+    top: 0;
+
+  }
     
 .book li a:hover{
-    background: #3d5995;
+    background: #0160E7;
 }
 
+.bookk li a:hover{
+    background: #FE4C1C;
+}
+
+
+@media (max-width :1024px) {
+
+    .cost img{
+        width: 50%;
+        height: 50%;
+       
+    }
+
+    .foott{
+        display: none;
+    }
+
+    .foot{
+        width: 10%;
+    }
+
+    .z img {
+        display: none;
+    }
+
+  
+   
+    
+  
+}
+
+.coloo {
+    height: 100%;
+    width: 100%;
+    background-color: #e6effd;
+}
+
+
+
+.hello ul {
+    display: none;
+    
+}
+
+.hello ul:hover{
+    display: block !important;
+}

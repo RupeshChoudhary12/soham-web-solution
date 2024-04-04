@@ -14,8 +14,8 @@ const Clients = () => {
         <Box sx={{  }}>
             <Box sx={{ paddingTop: "70px" , width:"60%" , height:"100%"}}>
                 <Container sx={{ width: "70%" }}>
-                    <Typography sx={{ fontWeight: "900" , color:"#0160E7"}}>
-                        <li>WHAT OUR CLIENT SAY</li>
+                    <Typography sx={{ fontWeight: "900" , color:"#0160E7" , fontSize  : "23px"}}>
+                        WHAT OUR CLIENT SAY
                     </Typography>
                      <Typography className="agency" sx={{ marginTop: "20px", fontWeight: "650"
                       ,color:"black", fontSize:"25px",flexWrap:"wrap",
@@ -42,7 +42,7 @@ const Clients = () => {
                 
                        </div>
                     </Box>
-                    <Box className="client-cc" sx={{  padding:"40px 20px",border:"1px solid blue", width: "270px", 
+                    <Box className="client-cc" sx={{  padding:"40px 20px",border:"1px solid blue", width: "270px",  background: "white",
                     borderRadius: "5px", 
                     height: "100%", margin:"5px",
                     display: "FLEX", alignItems: "start", justifyContent: "space-between", flexDirection: "column" }}>

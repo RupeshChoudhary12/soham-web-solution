@@ -47,14 +47,14 @@ const Foursection = () => {
 
         <Box sx={{
           color: "white", width: "330px", borderRadius: "5px", height: "300px",
-          border: "1px solid   #FE4C1C", display: "FLEX", alignItems: "center",background: "#0160E7" ,
+          border: "1px solid   #FE4C1C", display: "FLEX", alignItems: "center",background: "#FFFF" ,
           justifyContent: "center", flexDirection: "column"
         }}>
           <img className="icon-contact" src={Message} alt="" />
-          <Typography sx={{fontSize:"20px" , fontWeight:"700"}}>24/7 Supports</Typography>
-          <Typography sx={{fontSize:"16px" ,fontWeight:"600"}}> Contact@sohamsolution.com</Typography> 
-          <Typography sx={{fontSize:"16px" ,fontWeight:"600"}}>hr@sohamsolution.com</Typography>
-           <Typography sx={{fontSize:"16px" ,fontWeight:"600"}}>soham.solution@  yahoo.com</Typography>
+          <Typography sx={{fontSize:"20px" , fontWeight:"700" , color : "black"}}>24/7 Supports</Typography>
+          <Typography sx={{fontSize:"16px" ,fontWeight:"600" , color : "black"}}> Contact@sohamsolution.com</Typography> 
+          <Typography sx={{fontSize:"16px" ,fontWeight:"600" , color : "black"}}>hr@sohamsolution.com</Typography>
+           <Typography sx={{fontSize:"16px" ,fontWeight:"600" , color : "black"}}>soham.solution@  yahoo.com</Typography>
         </Box>
 
 

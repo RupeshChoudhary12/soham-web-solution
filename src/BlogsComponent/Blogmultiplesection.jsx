@@ -43,9 +43,9 @@ const Blogmultiplesection = () => {
   if(isLoading){
     return(
         <Container sx={{display:"flex", alignItems:"center", justifyContent:"center", width:"100%"}}>
-            <Typography variant="h1"  sx={{color:"gray"}}>
-                    Loading..........
-            </Typography>
+            <div class="spinner-border text-danger" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
         </Container>
     )
   }
@@ -54,10 +54,10 @@ const Blogmultiplesection = () => {
 
     return (
         <>
-            <Box sx={{ paddingTop: "20px", display: "flex", alignItems: "center",  justifyContent: "center", flexDirection: "column", width: "100%" }}>
-                <Typography variant="h4" sx={{ color: "#0160E7" }}>Blogs</Typography>
+            <Box  sx={{background: "#d9d9d9",  display: "flex", alignItems: "center",  justifyContent: "center", flexDirection: "column", width: "100%", height : "150px" }}>
+                <Typography variant="h4" sx={{ color: "#0160E7" , fontWeight : "500" }}>Blogs</Typography>
                 <Box sx={{ display: "flex" }}>
-                    <Typography sx={{ marginRight: "15PX", color: "#FE4C1C" }}>HOME</Typography>
+                    <Typography sx={{ marginRight: "15PX", color: "#FE4C1C"  , fontWeight : "600"}}>HOME <i class="bi bi-caret-right"></i> </Typography>
                     <Typography>
                         Blogs
 

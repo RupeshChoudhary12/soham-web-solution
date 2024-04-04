@@ -12,7 +12,7 @@ const Projects = () => {
         <Box  className="project1" sx={{ width:"100%", background: " #F0F6FF", margin: "70px 0px" }}>
             <Box className="project" sx={{}}>
                 <Container sx={{ width: "80%px", padding: "80px 0px" }}>
-                    <Typography sx={{ fontWeight: "900", color:'#0160e7' }}><li>OUR PROJECT LIST</li></Typography>
+                    <Typography sx={{ fontWeight: "900", color:'#0160e7', fontSize : "23px" }}>OUR PROJECT LIST</Typography>
                     <Typography  variant="" sx={{ marginTop: "50px" , fontSize: "30px", 
                     fontWeight: "650" ,color:"black" }}>What We Did</Typography>
 

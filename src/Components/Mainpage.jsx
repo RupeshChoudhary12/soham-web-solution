@@ -1,6 +1,5 @@
 import HomeSection from "./HomeSection"
 import Foursec from "./Foursec"
-import About from "./About"
 import Service from "./Service"
 import Parteners from "./Parteners"
 import Clients from "./Clients"
@@ -16,7 +15,6 @@ const Mainpage = () => {
         <>
             <HomeSection />
             <Foursec />
-            <About />
             <Service />
             <Parteners />
             <Clients />

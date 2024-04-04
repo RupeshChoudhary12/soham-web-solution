@@ -5,6 +5,7 @@ import Phone from "../assets/phone.svg"
 import Message from "../assets/message.svg"
 import Location from "../assets/location.svg"
 import screen from '../assets/screen.png'
+import IconSection from "./IconSection"
 
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
                < Container>
                     <Box sx={{ color: "white", padding: "100px 0px" }}>
 
-                         <Typography className="get" variant="h6" sx={{ fontWeight: "900", width: "20%", display: "flex", color: "#FE4C1C", alignItems: "center", justifyContent: "center" }}> GET CONECTED </Typography>
+                         <Typography className="get" variant="h6" sx={{ fontWeight: "900", width: "20%", display: "flex", color: "#FE4C1C", alignItems: "center", justifyContent: "start" }}> GET CONECTED </Typography>
                          <Box className="align" sx={{
                               paddingBottom: "100px", display: "flex", alignItems: "center",
                               justifyContent: "space-evenly", height: "70%", width: "100%"
@@ -22,7 +23,7 @@ const Footer = () => {
                                    <Typography variant="h5" sx={{
                                         marginTop: "20px", width: "100%", fontSize: "30px",
                                         fontWeight: "650"
-                                   }}>Subscribe To Newsletter And Stay Updated</Typography>
+                                   }}>Subscribe To Newsletter <br /> And Stay Updated</Typography>
                               </Box>
 
                               <Box className="fib" sx={{ width: "50%", height: "100%", marginLeft: "10px", marginTop: "20px", display: "flex", alignItems: "end" }}>
@@ -53,42 +54,8 @@ const Footer = () => {
                                         optimum solutions that drive the growth of
                                         your businesses across the world. </Typography>
 
-                                   <Box className="icon" sx={{ display: "flex", alignItems: "center", marginTop: "20px" }}>
-                                        <span className="d-flex justify-content-between w-75 mt-3">
-                                             <div className="book">
-                                                  <li>
-                                                       <a  href="">
-                                                            <i className="fa-brands fa-facebook-f h6 m-1 icon aa"></i>
-                                                       </a>
-                                                  </li>
-                                             </div>
-                                             <div className="book">
-                                                  <li>
-                                                       <a href="">
-                                                            <i className="fa-brands fa-instagram icon "></i>
-                                                       </a>
-                                                  </li>
-                                             </div>
-                                             <div className="book">
-                                                  <li><a href="">                                                  <i className="fa-brands fa-x-twitter icon"></i>
-                                                  </a></li>
-                                             </div>
-                                             <div className="book">
-                                                  <li><a href=""> <i className="fa-brands fa-youtube icon">
-                                                  </i> </a></li>
-                                             </div>
-                                             <div className="book">
-                                                  <li>
-                                                       <a href="">                                                        <i className="fa-brands fa-wordpress icon"></i>
-                                                       </a>
-                                                  </li>
-                                             </div>
-
-
-
-                                        </span>
-
-                                   </Box>
+                                <IconSection/>
+                                  
                               </Box>
 
                               <Box className="Our " sx={{ width: "200px", margin: "10px" }}>
@@ -120,31 +87,31 @@ const Footer = () => {
                                         marginBottom: "10px", width: "100%"
                                    }} >Our Policies</Typography>
                                    <Box sx={{ display: "flex" }}>
-                                        <img className="call" src={Call} alt="" />
+                                        <img className="call mt-2 " src={Call} alt="" />
 
                                         <Typography sx={{ fontSize: "13px", margin: "10px", width: "100%" }}> <a href="">+91 78792-31700</a> </Typography>
                                    </Box>
 
                                    <Box sx={{ display: "flex", alignItems: "center" }}>
-                                        <img src={Phone} alt="" />
+                                        <img className="call mt-2 h6" src={Phone} alt="" />
 
                                         <Typography sx={{ fontSize: "13px", margin: "10px", width: "100%" }}> <a href="">+91 70003-35673</a></Typography>
                                    </Box>
 
                                    <Box sx={{ display: "flex", alignItems: "center" }}>
-                                        <img src={Phone} alt="" />
+                                        <img className=" call mt-2 h6" src={Phone} alt="" />
 
                                         <Typography sx={{ fontSize: "13px", margin: "10px", width: "100%" }}> <a href="">+91 77480-18188</a></Typography>
                                    </Box>
 
                                    <Box sx={{ display: "flex", alignItems: "center" }}>
-                                        <img src={Message} alt="" />
+                                        <img className="call mt-2 h6" src={Message} alt="" />
 
                                         <Typography sx={{ fontSize: "13px", margin: "10px", width: "100%" }}> <a href="">Contact@sohamsolution.com</a> </Typography>
                                    </Box>
 
                                    <Box sx={{ display: "flex", alignItems: "center" }}>
-                                        <img src={Location} alt="" />
+                                        <img className="h6 call mt-2" src={Location} alt="" />
 
                                         <Typography sx={{ fontSize: "13px", margin: "10px", width: "100%" }}> <a href="">12 , Civil Line, Chamunda complex, Dewas</a> </Typography>
                                    </Box>
