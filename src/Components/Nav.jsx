@@ -83,7 +83,7 @@ const Nav = () => {
         </Box>
       </Box>
        </Box>
-            <div className="ooff ">
+            <Box className="ooff ">
          <nav class="navbar  fixed-top">
   <div class="container">
     <a href=""></a>
@@ -138,7 +138,7 @@ const Nav = () => {
     </div>
   </div>
 </nav>
-         </div> 
+         </Box> 
        
 
 

@@ -24,10 +24,10 @@ const Team = () => {
         display: "flex", alignItems: "center", justifyContent: "space-between", 
         padding: "80px 0PX", flexWrap: "wrap"
       }}>
-        <Card sx={{ maxWidth: 345, boxShadow: "3px 2px 20px 1px  #ccf2ff", margin: "10PX" }} >
+        <Card  sx={{ maxWidth: 345, boxShadow: "3px 2px 20px 1px  #ccf2ff", margin: "10PX" }} >
 
-          <CardActionArea className="play">
-            <Box sx={{ width: "50px", height: "200px", position: "absolute", top: "20px", left: "15px", display: "flex", alignItems: "center", justifyContent: "space-between", flexDirection: "column" }} >
+          <CardActionArea  >
+            <Box className="play" sx={{ width: "50px", height: "200px", position: "absolute", top: "20px", left: "15px", display: "flex", alignItems: "center", justifyContent: "space-between", flexDirection: "column" }} >
 
               <img className="plus" src={Plus} alt="" />
 

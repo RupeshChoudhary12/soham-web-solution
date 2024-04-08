@@ -19,10 +19,10 @@ a{
 .play ul{
     display: none;
 }
-.play:hover{
-    
+.play ul:hover{
+    display: ;
+    position: static;
         background-color:burlywood ;
-        display: block;
 }
 .name a {
     color: #000;
@@ -358,6 +358,7 @@ font-weight: 500;
     border-radius: 5px;
     
 }
+
 
 
 .input1 {

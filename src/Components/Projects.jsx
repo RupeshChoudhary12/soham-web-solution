@@ -21,10 +21,7 @@ const Projects = () => {
                         justifyContent: "space-between" , flexWrap:"wrap"
                     }}>
                        
-                             {/* <Typography sx={{ fontSize: "18px", fontWeight: "600" }}>A</Typography>
-                            <Typography sx={{ color: "#0160E7", textDecoration: "underline", fontSize: "18px", fontWeight: "600" }}>Branding</Typography>
-                            <Typography sx={{ fontSize: "18px", fontWeight: "600" }}>llutration</Typography>
-                            <Typography sx={{ fontSize: "18px", fontWeight: "600" }}>Web Design</Typography> */}
+                   
                                 <Typography sx={{fontSize : "18px" , fontWeight  : "600" ,  }}><a href="#">All</a></Typography>
                                 <Typography sx={{ fontSize : "18px" , fontWeight : "600"}}><a href="#">Branding</a></Typography>
                                 <Typography sx={{fontWeight : "600" , fontSize : "18px"}}><a href="#">Ilutration</a></Typography>
@@ -45,7 +42,7 @@ const Projects = () => {
                     display: "FLEX", alignItems: "center", marginBottom: "10px", flexWrap: "wrap"
                 }}>
 
-                    <Box sx={{ width: "25%", textAlign: "center", margin: "10px" }}>
+                    <Box  sx={{ width: "25%", textAlign: "center", margin: "10px" }}>
                         <img className="project-img1" src={First1} alt="" />
                         <img className="project-img1" src={First2} alt="" />
                     </Box>
