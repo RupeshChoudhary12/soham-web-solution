@@ -52,7 +52,7 @@ const contentSlice = createSlice({
 export default contentSlice.reducer;
 
 export const fetchcontents = createAsyncThunk("fetch/contents", async () => {
-    const response = await fetch("https://sohamsolution.com/wp-json/wp/v2/posts/8882");
+    const response = await fetch("https://sohamsolution.com/wp-json/wp/v2/posts/");
     const data = await response.json();
 
     console.log(data);

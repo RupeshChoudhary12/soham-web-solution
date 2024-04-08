@@ -200,8 +200,8 @@ function FormValidation() {
                         <Button type="submit" variant="contained"
                             onClick={handleSubmit}
                             sx={{
-                                marginBottom: "30px", width: "90%", borderRadius:
-                                    "30px", background: " #FE4C1C", marginTop: "20px"
+                                marginBottom: "30px", width: "50%", borderRadius:
+                                    "30px", background: " #FE4C1C", marginTop: "15px"
                             }}>Submit</Button>
                     </FormControl>
                 </Box >

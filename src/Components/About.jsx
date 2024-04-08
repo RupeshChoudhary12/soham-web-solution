@@ -20,36 +20,36 @@ const About = () => {
     return (
 
         <>
-          <Box  sx={{background: "#d9d9d9",  display: "flex", alignItems: "center",  justifyContent: "center", flexDirection: "column", width: "100%", height : "150px" }}>
-                <Typography variant="h4" sx={{ color: "#0160E7" , fontWeight : "500" }}>About</Typography>
+            <Box sx={{ background: "#d9d9d9", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", width: "100%", height: "150px" }}>
+                <Typography variant="h4" sx={{ color: "#0160E7", fontWeight: "500" }}>About</Typography>
                 <Box sx={{ display: "flex" }}>
-                    <Typography sx={{ marginRight: "15PX", color: "#FE4C1C"  , fontWeight : "600"}}>HOME <i class="bi bi-caret-right"></i> </Typography>
+                    <Typography sx={{ marginRight: "15PX", color: "#FE4C1C", fontWeight: "600" }}>HOME <i class="bi bi-caret-right"></i> </Typography>
                     <Typography>
                         About
 
                     </Typography>
                 </Box>
             </Box>
-                       <div className="company d-flex align-items-center justify-content-between  ">
-                <div className=" cost  position-relative d-flex justify-content-center" >
-                    <div className="x position-absolute ">
+            <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between" }} className="company">
+                <Box sx={{ display: "flex", justifyContent: "center", position: "relative" }} className="cost" >
+                    <Box sx={{ position: "absolute" }} className="x ">
                         <img src={frame} alt="" />
 
-                    </div>
-                    <div className="y position-absolute">
+                    </Box>
+                    <Box sx={{ position: "absolute" }} className="y">
                         <img src={img} alt="" />
-                    </div>
-                    <div className="z position-relative ">
+                    </Box>
+                    <Box sx={{ position: "absolute" }} className="z">
                         <img src={frame2} alt="" />
 
-                    </div>
+                    </Box>
 
-                </div>
-
-
+                </Box>
 
 
-                <div className="new me-5">
+
+
+                <Box sx={{ marginLeft: "10px" }} className="new">
                     <Typography variant="" sx={{
                         color: " #FE4C1C",
                         fontWeight: "700"
@@ -64,7 +64,7 @@ const About = () => {
                     <p>The are many variations of Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br /> Magni corporis veniam voluptatum rem, nesciunt quasi voluptatibus, placeat <br /> repellat rerum tenetur officiis eos dignissimos, laboriosam impedit?</p>
                     <Box className="off" sx={{ marginTop: "18px" }}>
                         <span><li className="about-li fw-bold">  <i class="bi bi-check-circle"> </i>Crative Conceptions</li>
-                        <li className="about-li fw-bold">  <i class="bi bi-check-circle"> </i>Business & Solution</li>
+                            <li className="about-li fw-bold">  <i class="bi bi-check-circle"> </i>Business & Solution</li>
 
 
 
@@ -87,25 +87,25 @@ const About = () => {
 
                     <Box sx={{ marginTop: "10px" }}>
 
-<Button variant="contained" sx={{
-    height: "50px", background: " #FE4C1C", width: "195px",
-    fontSize: "15px", borderRadius: "30px"
-}}>
-    Read  More
-    <img className="forword" src={Forword} alt="" />
-</Button>
-</Box>
+                        <Button variant="contained" sx={{
+                            height: "50px", background: " #FE4C1C", width: "195px",
+                            fontSize: "15px", borderRadius: "30px"
+                        }}>
+                            Read  More
+                            <img className="forword" src={Forword} alt="" />
+                        </Button>
+                    </Box>
 
-                </div>
+                </Box>
 
 
-            </div>
-             
-         
-      <Foursec/>
-            
-            <Service/>
-     
+            </Box>
+
+
+            <Foursec />
+
+            <Service />
+
             <Container>
 
 
@@ -119,7 +119,7 @@ const About = () => {
                     }}>
                         <Typography variant="" sx={{
                             color: " #FE4C1C",
-                            marginBottom: "30px", fontWeight: "900", fontSize : "23px"
+                            marginBottom: "30px", fontWeight: "900", fontSize: "23px"
                         }} >ABOUT US
                         </Typography>
 
@@ -167,10 +167,10 @@ const About = () => {
                 </Box>
             </Container>
 
-            <Team/>
-            <Parteners/>
-            <Box sx={{marginTop : "60px"}}></Box>
-            <Footer/>
+            <Team />
+            <Parteners />
+            <Box sx={{ marginTop: "60px" }}></Box>
+            <Footer />
         </>
 
     )

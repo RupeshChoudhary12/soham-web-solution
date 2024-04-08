@@ -77,7 +77,7 @@ const Blogmultiplesection = () => {
 
                     </Box>
                     <Box sx={{ marginTop: "10px", width: "100%" }}>
-                    <div className="howw mt-3">
+                    <Box className="howw mt-3">
                     <Button variant="contained" sx={{ width: "110px", height: "28px", fontSize: "10px", margin: "3px", fontWeight : "500" }}>
                     <i class="bi bi-calendar3">09 Ma 2024</i>
                         </Button>
@@ -103,7 +103,7 @@ const Blogmultiplesection = () => {
                         </Button>
 
                     
-                    </div>
+                    </Box>
 
 
                     </Box>
@@ -125,7 +125,7 @@ const Blogmultiplesection = () => {
 
                     <Box sx={{ marginTop: "10px", width: "100%" }}>
                      
-                      <div className="howw mt-3">
+                      <Box className="howw mt-3">
                       <Button variant="contained" sx={{ width: "110px", height: "28px", fontSize: "10px", margin: "3px" }}>
                       <i class="bi bi-calendar3">02 Ma 2024</i>
                         </Button>
@@ -150,7 +150,7 @@ const Blogmultiplesection = () => {
                             WORDPRESSPLUGINS
                         </Button>
 
-                      </div>
+                      </Box>
                     
 
 
@@ -167,8 +167,8 @@ const Blogmultiplesection = () => {
 
 
                     <Box sx={{ width: "100%" , marginTop : "20px" }}>
-                        {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src={Blog3} alt="" />
+                        <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" />
+                        {/* <img className="w-100" src={Blog3} alt="" /> */}
 
                     </Box>
 

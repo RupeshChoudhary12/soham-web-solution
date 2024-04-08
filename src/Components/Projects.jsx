@@ -1,4 +1,4 @@
-import { Box, Container, Typography } from "@mui/material"
+import { Box, Container, Typography , Button} from "@mui/material"
 import First1 from "../assets/first1.png"
 import First2 from "../assets/first2.png"
 import First3 from "../assets/first3.png"
@@ -16,15 +16,21 @@ const Projects = () => {
                     <Typography  variant="" sx={{ marginTop: "50px" , fontSize: "30px", 
                     fontWeight: "650" ,color:"black" }}>What We Did</Typography>
 
-                    <Box sx={{
+                    <Box className="name" sx={{
                         marginTop: "15px", width: "30%", display: "flex", alignItems: "center ", height:"100%",
                         justifyContent: "space-between" , flexWrap:"wrap"
                     }}>
                        
-                             <Typography sx={{ fontSize: "18px", fontWeight: "600" }}>All</Typography>
+                             {/* <Typography sx={{ fontSize: "18px", fontWeight: "600" }}>A</Typography>
                             <Typography sx={{ color: "#0160E7", textDecoration: "underline", fontSize: "18px", fontWeight: "600" }}>Branding</Typography>
                             <Typography sx={{ fontSize: "18px", fontWeight: "600" }}>llutration</Typography>
-                            <Typography sx={{ fontSize: "18px", fontWeight: "600" }}>Web Design</Typography>
+                            <Typography sx={{ fontSize: "18px", fontWeight: "600" }}>Web Design</Typography> */}
+                                <Typography sx={{fontSize : "18px" , fontWeight  : "600" ,  }}><a href="#">All</a></Typography>
+                                <Typography sx={{ fontSize : "18px" , fontWeight : "600"}}><a href="#">Branding</a></Typography>
+                                <Typography sx={{fontWeight : "600" , fontSize : "18px"}}><a href="#">Ilutration</a></Typography>
+                                <Typography sx={{fontSize : "18px", fontWeight  : "600"}}><a href="#">Web Design</a></Typography>
+
+
 
                   
 
@@ -48,6 +54,8 @@ const Projects = () => {
                         <img className="project-img2" src={First3} alt="" />
 
                         <button type="button" class="mark btn btn-primary btn-lg ">Marketing Research </button>
+                        {/* <Button  variant="contained"  color="primary" class="mark ">Marketing Research</Button> */}
+
 
 
                     </Box>

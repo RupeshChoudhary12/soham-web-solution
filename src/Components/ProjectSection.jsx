@@ -28,15 +28,18 @@ const ProjectSection = () => {
                 <Container sx={{ width: "80%px", padding: "80px 0px" }}>
              
 
-                    <Box sx={{
+                    <Box className="name" sx={{
                         marginTop: "15px", width: "30%", display: "flex", alignItems: "center ", height:"100%",
                         justifyContent: "space-between" , flexWrap:"wrap"
                     }}>
                        
-                             <Typography sx={{ fontSize: "18px", fontWeight: "600" }}>All</Typography>
-                            <Typography sx={{ color: "#0160E7", textDecoration: "underline", fontSize: "18px", fontWeight: "600" }}>Branding</Typography>
-                            <Typography sx={{ fontSize: "18px", fontWeight: "600" }}>llutration</Typography>
-                            <Typography sx={{ fontSize: "18px", fontWeight: "600" }}>Web Design</Typography>
+                       <Typography sx={{fontSize : "18px" , fontWeight  : "600" ,  }}><a href="#">All</a></Typography>
+                                <Typography sx={{ fontSize : "18px" , fontWeight : "600"}}><a href="https://www.youtube.com/">Branding</a></Typography>
+                                <Typography sx={{fontWeight : "600" , fontSize : "18px"}}><a href="#">Ilutration</a></Typography>
+                                <Typography sx={{fontSize : "18px", fontWeight  : "600"}}><a href="#">Web Design</a></Typography>
+
+
+
 
                   
 

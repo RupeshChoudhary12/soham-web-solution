@@ -30,7 +30,7 @@ const Nav = () => {
        <Box className="nav-or h-50">
         
           
-      <Box  sx={{  
+      <Box className= "homee" sx={{  
         width: "60%", display: "flex",border: "0" ,
         alignItems: "center", justifyContent: "center", position: "relative", top: "-100px", right:"-38%",
       }} >
@@ -44,7 +44,7 @@ const Nav = () => {
 
           
 
-         <div className="home w-100 d-flex align-item-center justify-content-around  flex-wrap">
+         <Box sx={{display : "flex" , alignItems : "center" , justifyContent : "space-around" , flexWrap : "wrap" , width : "100%"}} className="home ">
          <Link className="xy" to="/" sx={{margin:"10px" , fontSize:"100%"}}>
             HOME
           </Link>
@@ -73,7 +73,7 @@ const Nav = () => {
           <Button  className="bttt"  variant="contained" sx={{ width: "130px", borderRadius: "20px",
           fontSize:"80%"
           }}>GET STARTED</Button>
-         </div>
+         </Box>
 
    
 
@@ -85,7 +85,7 @@ const Nav = () => {
        </Box>
             <div className="ooff ">
          <nav class="navbar  fixed-top">
-  <div class="container-fluid">
+  <div class="container">
     <a href=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -95,9 +95,8 @@ const Nav = () => {
       <img className=" nav-logo-new ms-3 mt-3" src={Soham} alt="" />
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div class="offcanvas-body bg-dark">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-      <div className="down text-dark">
+      <div class="offcanvas-body downn">
+      <div className="down ">
             
       <Link to="/"  sx={{margin:"10px" ,border : "0" ,  border: "0" , fontSize:"100%" , color : "Black" }}>
             HOME
@@ -124,17 +123,15 @@ const Nav = () => {
           <Link to="/project"    sx={{margin:"10px", fontSize:"100%"}}>
             PROJECT
           </Link>
-       
+
          
          
       </div>
           
-      <Typography sx={{margin:"10px ", fontSize:"90%"}}>7984740805</Typography>
       <IconSection/>
 
 
     
-        </ul>
         
         
       </div>
@@ -150,5 +147,5 @@ const Nav = () => {
     </>
   )
 }
-export default Nav
+export default Nav 
 
