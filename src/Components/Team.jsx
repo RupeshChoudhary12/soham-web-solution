@@ -137,7 +137,7 @@ const Team = () => {
               </ul>
 
             </Box>
-            {/* <img className="team1" /> */}
+            <img className="team1" />
             <CardContent sx={{ width: "340px", padding: "30px", height: "150px" }}>
               <Typography color="#0160E7" gutterBottom variant="h6" component="div" sx={{ fontWeight: "700", textAlign: "center" }}>
                 Anil Meena
