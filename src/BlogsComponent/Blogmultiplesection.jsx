@@ -72,8 +72,8 @@ const Blogmultiplesection = () => {
                     alignItems: "center", justifyContent: "center", flexDirection: "COLUMN"
                 }}>
                     <Box sx={{ width: "100%" }}>
-                        {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src={Blog1} alt="" />
+                        <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" />
+                        {/* <img className="blogimg1" sx={{width : "100%"}}   src={Blog1} alt="" /> */}
 
                     </Box>
                     <Box sx={{ marginTop: "10px", width: "100%" }}>
@@ -82,23 +82,23 @@ const Blogmultiplesection = () => {
                     <i class="bi bi-calendar3">09 Ma 2024</i>
                         </Button>
 
-                        <Button variant="contained" sx={{ width: "110px", height: "28px", fontSize: "10px", margin: "3px" }}>
+                        <Button variant="contained" sx={{ width: "110px", height: "28px", fontSize: "10px", margin: "3px" , fontWeight : "400" }}>
                             WEBDEVELOPMENT
                         </Button>
 
-                        <Button variant="contained" sx={{ width: "50px", height: "28px", fontSize: "10px", margin: "3px" }}>
+                        <Button variant="contained" sx={{ width: "50px", height: "28px", fontSize: "10px", margin: "3px" , fontWeight : "400"}}>
                             SHOPIFY
                         </Button>
 
-                        <Button variant="contained" sx={{ width: "90px", height: "28px", fontSize: "10px", margin: "3px" }}>
+                        <Button variant="contained" sx={{ width: "90px", height: "28px", fontSize: "10px", margin: "3px" , fontWeight : "400"}}>
                             WOOCOMERCE
                         </Button>
 
-                        <Button variant="contained" sx={{ width: "80px", height: "28px", fontSize: "10px", margin: "3px" }}>
+                        <Button variant="contained" sx={{ width: "80px", height: "28px", fontSize: "10px", margin: "3px", fontWeight : "400" }}>
                             WORDPRESS
                         </Button>
 
-                        <Button variant="contained" sx={{ width: "125px", height: "28px", fontSize: "10px", margin: "3px" }}>
+                        <Button variant="contained" sx={{ width: "125px", height: "28px", fontSize: "10px", margin: "3px" , fontWeight : "400"}}>
                             WORDPRESSPLUGINS
                         </Button>
 
@@ -110,7 +110,7 @@ const Blogmultiplesection = () => {
                     <Typography sx={{ fontSize: "25px", color: "black", fontWeight: "600" , marginTop : "35px"}}>
                             The Ultimate Guide to Shopiyf SEO:How to Rank Higher and Drive more
                         </Typography>
-                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "100" , marginTop : "10px"}}>
+                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "400" , marginTop : "10px"}}>
                             Are you Shopify store owner looking to boose your online visiblity and drive more trafic to your website? Look no further in thus ultimate guide to Shopify SEO
                         </Typography>
 
@@ -118,35 +118,34 @@ const Blogmultiplesection = () => {
 
 
                     <Box sx={{ width: "100%" , marginTop : "20px" }}>
-                        {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src={Blog2} alt="" />
+                        <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" />
 
                     </Box>
 
                     <Box sx={{ marginTop: "10px", width: "100%" }}>
                      
                       <Box className="howw mt-3">
-                      <Button variant="contained" sx={{ width: "110px", height: "28px", fontSize: "10px", margin: "3px" }}>
+                      <Button variant="contained" sx={{ width: "110px", height: "28px", fontSize: "10px", margin: "3px" , fontWeight : "400"}}>
                       <i class="bi bi-calendar3">02 Ma 2024</i>
                         </Button>
 
-                        <Button variant="contained" sx={{ width: "110px", height: "28px", fontSize: "10px", margin: "3px" }}>
+                        <Button variant="contained" sx={{ width: "110px", height: "28px", fontSize: "10px", margin: "3px", fontWeight : "400" }}>
                             WEBDEVELOPMENT
                         </Button>
 
-                        <Button variant="contained" sx={{ width: "50px", height: "28px", fontSize: "10px", margin: "3px" }}>
+                        <Button variant="contained" sx={{ width: "50px", height: "28px", fontSize: "10px", margin: "3px", fontWeight : "400" }}>
                             SHOPIFY
                         </Button>
 
-                        <Button variant="contained" sx={{ width: "90px", height: "28px", fontSize: "10px", margin: "3px" }}>
+                        <Button variant="contained" sx={{ width: "90px", height: "28px", fontSize: "10px", margin: "3px", fontWeight : "400" }}>
                             WOOCOMERCE
                         </Button>
 
-                        <Button variant="contained" sx={{ width: "80px", height: "28px", fontSize: "10px", margin: "3px" }}>
+                        <Button variant="contained" sx={{ width: "80px", height: "28px", fontSize: "10px", margin: "3px", fontWeight : "400" }}>
                             WORDPRESS
                         </Button>
 
-                        <Button variant="contained" sx={{ width: "125px", height: "28px", fontSize: "10px", margin: "3px" }}>
+                        <Button variant="contained" sx={{ width: "125px", height: "28px", fontSize: "10px", margin: "3px" , fontWeight : "400"}}>
                             WORDPRESSPLUGINS
                         </Button>
 
@@ -158,7 +157,7 @@ const Blogmultiplesection = () => {
                     <Typography sx={{ fontSize: "25px", color: "black", fontWeight: "600" , marginTop : "35px"}}>
                         How to create a Modern Web App Using Wordpress and React?
                         </Typography>
-                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "100" , marginTop : "10px"}}>
+                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "400" , marginTop : "10px"}}>
                         Are you looking to develop a modern web app that combiness the power of wordPress and React? Look no further in this article we will guide you through the
                         </Typography>
 
@@ -168,7 +167,6 @@ const Blogmultiplesection = () => {
 
                     <Box sx={{ width: "100%" , marginTop : "20px" }}>
                         <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" />
-                        {/* <img className="w-100" src={Blog3} alt="" /> */}
 
                     </Box>
 
@@ -208,7 +206,7 @@ const Blogmultiplesection = () => {
                     <Typography sx={{ fontSize: "25px", color: "black", fontWeight: "600" , marginTop : "35px"}}>
                        Shopify vs WooCommerce: Which one is Better for Your Online Store
                         </Typography>
-                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "100" , marginTop : "10px"}}>
+                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "400" , marginTop : "10px"}}>
                          Are you torn between Shopify and WooCommerce ffor your online store ? your not alone Both platforms have their making it chlanenging to decide which one is better 
                         </Typography>
 
@@ -217,8 +215,7 @@ const Blogmultiplesection = () => {
 
 
                     <Box sx={{ width: "100%" , marginTop : "20px"}}>
-                        {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src={Blog4} alt="" />
+                        <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" />
 
                     </Box>
                     <Box sx={{ marginTop: "10px", width: "100%" }}>
@@ -255,7 +252,7 @@ const Blogmultiplesection = () => {
                     <Typography sx={{ fontSize: "25px", color: "black", fontWeight: "600" , marginTop : "35px"}}>
                         Vashant Panchmi 2024
                         </Typography>
-                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "100" , marginTop : "10px"}}>
+                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "400" , marginTop : "10px"}}>
                             Get ready to immerse yourself in the vibrant colores and joyous celebrations of vasnt Panchami 2024! this auspicious Hindu festival, also known as Sarswati Puja marks the arrival of  
                         </Typography>
 
@@ -263,8 +260,7 @@ const Blogmultiplesection = () => {
 
 
                     <Box sx={{ width: "100%" , marginTop : "20px" }}>
-                        {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src={Blog5} alt="" />
+                        <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" />
 
                     </Box>
 
@@ -302,15 +298,14 @@ const Blogmultiplesection = () => {
                     <Typography sx={{ fontSize: "25px", color: "black", fontWeight: "600" , marginTop : "35px"}}>
                         What are the challenges and opprtunities for PHP develop[ers and business in the future?]
                         </Typography>
-                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "100" , marginTop : "10px"}}>
+                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "400" , marginTop : "10px"}}>
                             PHP developers face challenges in technilogy advancements and security but the demand for their skills presents significant opprtunities for PHP developers Lerveraging PHP development enables business to create robust
                         </Typography>
 
 
 
                     <Box sx={{ width: "100%" ,marginTop : "20px" }}>
-                        {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src={Blog6} alt="" />
+                        <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" />
 
                     </Box>
 
@@ -348,14 +343,13 @@ const Blogmultiplesection = () => {
                     <Typography sx={{ fontSize: "25px", color: "black", fontWeight: "600" , marginTop : "35px"}}>
                             What will be New features in WordPress 6.5: Eveerything You Need to know
                         </Typography>
-                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "100" , marginTop : "10px"}}>
+                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "400" , marginTop : "10px"}}>
                             Get ready to immerse yourself in the vibrant colore and joyouns celebrations of vasant Panchami 2024! this  auspicious Hindu festival also know as Saraswati ji puja marks the arrival of 
                         </Typography>
 
 
                         <Box sx={{ width: "100%" , marginTop : "20px" }}>
-                        {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src={Blog7} alt="" />
+                        <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" />
 
                     </Box>
 
@@ -394,7 +388,7 @@ const Blogmultiplesection = () => {
                     <Typography sx={{ fontSize: "25px", color: "black", fontWeight: "600" , marginTop : "35px"}}>
                             9 Staps to Creative a Plugin for Beginners
                         </Typography>
-                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "100" , marginTop : "10px"}}>
+                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "400" , marginTop : "10px"}}>
                             A WordPress plugin is a software that can be added to a WordPress website to enhace its functionality and add new fetures it acts as an add-on eliminting the 
                         </Typography>
 
@@ -402,8 +396,7 @@ const Blogmultiplesection = () => {
 
 
                         <Box sx={{ width: "100%" , marginTop : "20px" }}>
-                        {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src={Blog8} alt="" />
+                        <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" />
 
                     </Box>
 
@@ -442,7 +435,7 @@ const Blogmultiplesection = () => {
                     <Typography sx={{ fontSize: "25px", color: "black", fontWeight: "600" , marginTop : "35px" }}>
                         Merry Cristmas
                         </Typography>
-                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "100" , marginTop : "10px"}}>
+                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "400" , marginTop : "10px"}}>
                             Christmas is an annual festival commermorting the birth of jessus Christ primarliy abserved on December 25 as a religios and culturl celebration amoung billons of people around the world A feast central to the  Cristmas iltugical year it follows the season of Advent (which begins........
                         </Typography>
 
@@ -451,8 +444,7 @@ const Blogmultiplesection = () => {
 
 
                         <Box sx={{ width: "100%" , marginTop : "20px" }}>
-                        {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src={Blog9} alt="" />
+                        <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" />
 
                     </Box>
 
@@ -491,14 +483,13 @@ const Blogmultiplesection = () => {
                     <Typography sx={{ fontSize: "25px", color: "black", fontWeight: "600" , marginTop : "35px" }}>
                         Human Rights Day
                         </Typography>
-                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "100" , marginTop : "10px"}}>
+                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "400" , marginTop : "10px"}}>
                             Human Rights Day is celebrated annully around the world on 10 December every year The date was chosen to honor the United Nations Geneal Assemblis adoption and proclamation on 10 December 1984 of......
                         </Typography>
 
 
                         <Box sx={{ width: "100%" , marginTop : "20px" }}>
-                        {/* <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" /> */}
-                        <img className="w-100" src={Blog10} alt="" />
+                        <img className="blogimg1" src={contents.jetpack_featured_media_url} alt="" />
                     </Box>
 
                     <Box sx={{ marginTop: "10px", width: "100%" }}>
@@ -536,7 +527,7 @@ const Blogmultiplesection = () => {
                     <Typography  sx={{ fontSize: "25px", color: "black", fontWeight: "600" , marginTop : "35px" }}>
                         Human Rights Day
                         </Typography>
-                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "100" , marginTop : "10px"}}>
+                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "400" , marginTop : "10px"}}>
                             Human Rights Day is celebrated annully around the world on 10 December every year The date was chosen to honor the United Nations Geneal Assemblis adoption and proclamation on 10 December 1984 of......
                         </Typography>
 

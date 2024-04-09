@@ -5,7 +5,7 @@ const Service = () => {
    return (
       <Box className="servi" sx={{ width:"100%", background: "#F0F6FF  ", padding: "70px 0px" , marginTop : "40px"}} >
          <Container >
-         <Typography sx={{ fontWeight: "900", fontSize : "23px" ,  color:"#0160E7" ,  textAlign: "start"}}>OUR BEST SERVICES</Typography>
+         <Typography sx={{ fontWeight: "900", fontSize : "23px" ,  color:"#0160E7" ,  padding :"16px " , marginLeft : "14px"}}>OUR BEST SERVICES</Typography>
 
             <Box className="service" sx={{
                padding : "20px 0px",
@@ -14,8 +14,8 @@ const Service = () => {
                
             }}>
 
-               <Typography   variant="" sx={{ marginTop: "30px", fontSize: "30px", alignItems :"center ",fontWeight: "650" ,color:"black" }}>
-                  We Are Committed To Providding Our <br /> Costumers With Exptional.</Typography>
+               <Typography   variant="" sx={{ marginTop: "30px", fontSize: "30px", alignItems :"center ",fontWeight: "650" ,color:"black" , padding : "16px" , marginLeft : "14px"}}>
+                  We Are Committed To Providding Our  Costumers With Exptional.</Typography>
 
             </Box>
          </Container>
@@ -25,9 +25,9 @@ const Service = () => {
                justifyContent: "center" ,flexWrap:"wrap"
             }}>
                <Box className="hoverr" sx={{
-                  padding: "30px", width: "350px", borderRadius: "3px", height: "350px",
-                  background: "white", margin: "20px", display: "FLEX", alignItems: "center",
-                  justifyContent: "center", flexDirection: "column"
+                   width: "350px", borderRadius: "3px", height: "350px",
+                  background: "white", margin: "10px", display: "FLEX", alignItems: "center",
+                  justifyContent: "center", flexDirection: "column" ,padding:"10px"
                }}>
                   <img src={Php} alt="" />
                   <Typography variant="" sx={{ fontWeight: "900" }} >PHP Development</Typography>
@@ -41,7 +41,7 @@ const Service = () => {
                   </Typography>
                </Box>
                <Box  className="hoverr" sx={{ padding: "30px", width: "350px", borderRadius: "3px",
-               height: "350px", background: "white", margin: "15px", display: "FLEX", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
+               height: "350px", background: "white", margin: "10px", display: "FLEX", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
                   <img src={Design}  alt="" />
                   <Typography variant="" sx={{ fontWeight: "900" }}>Web Designing</Typography>
                   <Typography  sx={{ fontSize: "18px", padding: "10px" , marginTop: "10px" , }}>
@@ -54,7 +54,7 @@ const Service = () => {
                   </Typography>
                </Box>
                <Box className="hoverr" sx={{  padding: "30px", width: "350px", borderRadius: "3px",
-                height: "100%", background: "white", margin: "15px", display: "FLEX", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
+                height: "100%", background: "white", margin: "10px", display: "FLEX", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
                   <img src={Php} alt="" />
                   <Typography variant="" sx={{ fontWeight: "900" }}>Graphic Designing</Typography>
                   <Typography sx={{ fontSize: "15px", padding: "10px" }}>
@@ -74,7 +74,7 @@ const Service = () => {
             }}>
                <Box className="hoverr" sx={{
                    padding: "30px", width: "350px", borderRadius: "3px", height: "100%",
-                  background: "white", margin: "15px", display: "FLEX", alignItems: 
+                  background: "white", margin: "10px", display: "FLEX", alignItems: 
                   "center", justifyContent: "center", flexDirection: "column"
                }}>
                   <img src={Php} alt="" />
@@ -93,7 +93,7 @@ const Service = () => {
                </Box>
                <Box className="hoverr" sx={{
                    padding: "30px", width: "350px", borderRadius: "3px", height: "350px",
-                  background: "white", margin: "15px", display: "FLEX", alignItems: "center",
+                  background: "white", margin: "10px", display: "FLEX", alignItems: "center",
                   justifyContent: "center", flexDirection: "column",
                }}>
                   <img src={Php} alt="" />
@@ -109,7 +109,7 @@ const Service = () => {
                   </Typography>
                </Box>
                <Box className="hoverr" sx={{
-                  margin: "20px", padding: "30px", width: "350px", borderRadius:
+                  margin: "10px", padding: "30px", width: "350px", borderRadius:
                      "3px", height: "100%", background: "white", display: "FLEX", alignItems: "center", justifyContent: "center", flexDirection: "column"
                }}>
                   <img src={Php} alt="" />

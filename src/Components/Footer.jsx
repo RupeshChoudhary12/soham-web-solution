@@ -1,11 +1,10 @@
 import { Box, Button, Container, Typography } from "@mui/material"
 
 import Call from "../assets/call.svg"
-import Phone from "../assets/phone.svg"
-import Message from "../assets/message.svg"
-import Location from "../assets/location.svg"
+
 import screen from '../assets/screen.png'
 import IconSection from "./IconSection"
+import { AddLocation, Email, Phone, Smartphone } from "@mui/icons-material"
 
 
 const Footer = () => {
@@ -61,22 +60,22 @@ const Footer = () => {
                               <Box className="Our " sx={{ width: "200px", margin: "10px" }}>
                                    <Typography variant="h6" sx={{ fontWeight: "900", marginBottom: "10px" }}>Quick Links</Typography>
 
-                                   <p > <a href="">About</a> </p>
-                                   <p > <a href="">Services</a> </p>
-                                   <p > <a href="">Career</a> </p>
-                                   <p > <a href="">Contact Us</a> </p>
-                                   <p > <a href="">Blog</a> </p>
+                                   <Typography sx={{margin : "8px"}}> <a href="">About</a> </Typography>
+                                   <Typography sx={{margin : "8px"}}> <a href="">Services</a> </Typography>
+                                   <Typography sx={{margin : "8px"}}> <a href="">Career</a> </Typography>
+                                   <Typography sx={{margin : "8px"}}> <a href="">Contact Us</a> </Typography>
+                                   <Typography sx={{margin : "8px"}} > <a href="">Blog</a> </Typography>
 
                               </Box>
 
                               <Box className="Our" sx={{ width: "280px", margin: "10px" }}>
                                    <Typography variant="h6" sx={{ fontWeight: "900", marginBottom: "10px" }}>Our Policies</Typography>
 
-                                   <p > <a href="">Privacy Policy</a> </p>
-                                   <p > <a href="">Terms Conditions</a> </p>
-                                   <p > <a href="">Support and Mantainance Package</a> </p>
-                                   <p > <a href="">Shipping and delivery Policy</a> </p>
-                                   <p > <a href="">Cancelation and refund policy</a> </p>
+                                   <Typography sx={{margin : "8px"}} > <a href="">Privacy Policy</a> </Typography>
+                                   <Typography sx={{margin : "8px"}}> <a href="">Terms Conditions</a> </Typography>
+                                   <Typography sx={{margin : "8px"}}> <a href="">Support and Mantainance Package</a> </Typography>
+                                   <Typography sx={{margin : "8px"}}> <a href="">Shipping and delivery Policy</a> </Typography>
+                                   <Typography sx={{margin : "8px"}}> <a href="">Cancelation and refund policy</a> </Typography>
 
 
                               </Box>
@@ -87,31 +86,31 @@ const Footer = () => {
                                         marginBottom: "10px", width: "100%"
                                    }} >Our Policies</Typography>
                                    <Box sx={{ display: "flex" }}>
-                                        <img className="call mt-2 " src={Call} alt="" />
+                                        <Phone htmlColor="#FE4C1C"/>
 
                                         <Typography sx={{ fontSize: "13px", margin: "10px", width: "100%" }}> <a href="">+91 78792-31700</a> </Typography>
                                    </Box>
 
                                    <Box sx={{ display: "flex", alignItems: "center" }}>
-                                        <img className="call mt-2 h6" src={Phone} alt="" />
+                                   <Smartphone  htmlColor=" #FE4C1C"/>
 
                                         <Typography sx={{ fontSize: "13px", margin: "10px", width: "100%" }}> <a href="">+91 70003-35673</a></Typography>
                                    </Box>
 
                                    <Box sx={{ display: "flex", alignItems: "center" }}>
-                                        <img className=" call mt-2 h6" src={Phone} alt="" />
+                                        <Smartphone  htmlColor=" #FE4C1C"/>
 
                                         <Typography sx={{ fontSize: "13px", margin: "10px", width: "100%" }}> <a href="">+91 77480-18188</a></Typography>
                                    </Box>
 
                                    <Box sx={{ display: "flex", alignItems: "center" }}>
-                                        <img className="call mt-2 h6" src={Message} alt="" />
+                                        <Email htmlColor=" #FE4C1C"/>
 
                                         <Typography sx={{ fontSize: "13px", margin: "10px", width: "100%" }}> <a href="">Contact@sohamsolution.com</a> </Typography>
                                    </Box>
 
                                    <Box sx={{ display: "flex", alignItems: "center" }}>
-                                        <img className="h6 call mt-2" src={Location} alt="" />
+                                        <AddLocation htmlColor="#FE4C1C"/>
 
                                         <Typography sx={{ fontSize: "13px", margin: "10px", width: "100%" }}> <a href="">12 , Civil Line, Chamunda complex, Dewas</a> </Typography>
                                    </Box>

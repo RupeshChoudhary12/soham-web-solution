@@ -1,5 +1,6 @@
 import { Box, Button, Container, Typography } from "@mui/material"
 import Forword from "../assets/for.png"
+import { ArrowForward } from "@mui/icons-material"
 
 
 const App = () => {
@@ -24,14 +25,14 @@ const App = () => {
                             borderRadius: "30px"
                         }}>
                             Get Started
-                            <img className="forword" src={Forword} />
+                            <ArrowForward className="forword" sx={{background : "white" , borderRadius : "50%" , color : "#0160E7" , fontSize : "25px"}}/>
                         </Button>
                         <Button variant="contained" sx={{
                             height: "50px", width: "190px", 
                             background: " #FE4C1C", fontSize: "16px", borderRadius: "30px", fontWeight: "400"
                         }}>
                             Learn More
-                            <img className="forword" src={Forword} alt="" />
+                            <ArrowForward className="forword" sx={{background : "white" , borderRadius : "50%" , color : "#FE4C1C" , fontSize : "25px"}}/>
                         </Button>
                     </Box>
                 </Box>

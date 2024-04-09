@@ -12,20 +12,20 @@ const Projects = () => {
         <Box  className="project1" sx={{ width:"100%", background: " #F0F6FF", margin: "70px 0px" }}>
             <Box className="project" sx={{}}>
                 <Container sx={{ width: "80%px", padding: "80px 0px" }}>
-                    <Typography sx={{ fontWeight: "900", color:'#0160e7', fontSize : "23px" }}>OUR PROJECT LIST</Typography>
-                    <Typography  variant="" sx={{ marginTop: "50px" , fontSize: "30px", 
-                    fontWeight: "650" ,color:"black" }}>What We Did</Typography>
+                    <Typography sx={{ fontWeight: "900", color:'#0160e7', fontSize : "23px"  , padding : "12px  0px 0px 12px"  , marginBottom : "20px"}}>OUR PROJECT LIST</Typography>
+                    <Typography  variant="" sx={{ marginTop: "70px" , fontSize: "30px", 
+                    fontWeight: "650" ,color:"black"  ,padding : "12px  0px 0px 12px" }}>What We Did</Typography>
 
                     <Box className="name" sx={{
                         marginTop: "15px", width: "30%", display: "flex", alignItems: "center ", height:"100%",
-                        justifyContent: "space-between" , flexWrap:"wrap"
+                        justifyContent: "space-between" , flexWrap:"wrap" , padding : "12px  0px 0px 12px" 
                     }}>
                        
                    
-                                <Typography sx={{fontSize : "18px" , fontWeight  : "600" ,  }}><a href="#">All</a></Typography>
-                                <Typography sx={{ fontSize : "18px" , fontWeight : "600"}}><a href="#">Branding</a></Typography>
-                                <Typography sx={{fontWeight : "600" , fontSize : "18px"}}><a href="#">Ilutration</a></Typography>
-                                <Typography sx={{fontSize : "18px", fontWeight  : "600"}}><a href="#">Web Design</a></Typography>
+                                <Typography sx={{fontSize : "18px"    }}><a href="#">All</a></Typography>
+                                <Typography sx={{ fontSize : "18px" }}><a href="#">Branding</a></Typography>
+                                <Typography sx={{fontWeight : "600" }}><a href="#">Ilutration</a></Typography>
+                                <Typography sx={{fontSize : "18px"}}><a href="#">Web Design</a></Typography>
 
 
 
@@ -50,8 +50,7 @@ const Projects = () => {
                     <Box sx={{ width: "400px", textAlign: "center", margin: "10px" }}>
                         <img className="project-img2" src={First3} alt="" />
 
-                        <button type="button" class="mark btn btn-primary btn-lg ">Marketing Research </button>
-                        {/* <Button  variant="contained"  color="primary" class="mark ">Marketing Research</Button> */}
+                        <Button className="mark" variant="contained" sx={{backgroundColor : "#0160E7"}}>Marketing Research</Button>
 
 
 

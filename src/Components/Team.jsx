@@ -2,9 +2,8 @@ import { Box, Card, CardActionArea, CardContent, CardMedia, Container, Typograph
 
 
 import Plus from "../assets/plus.svg"
-import Insta from "../assets/Vectorinsta.svg"
-import Facbook from "../assets/facebook-blue.svg"
-import Twitter from "../assets/twitter.png"
+
+import { AddCircleOutlined, Facebook, Instagram, LinkedIn, X } from "@mui/icons-material"
 
 const Team = () => {
   return (
@@ -27,31 +26,38 @@ const Team = () => {
         <Card  sx={{ maxWidth: 345, boxShadow: "3px 2px 20px 1px  #ccf2ff", margin: "10PX" }} >
 
           <CardActionArea  >
-            <Box className="play" sx={{ width: "50px", height: "200px", position: "absolute", top: "20px", left: "15px", display: "flex", alignItems: "center", justifyContent: "space-between", flexDirection: "column" }} >
+            <Box sx={{ width: "50px", height: "200px", position: "absolute", top: "20px", left: "15px", display: "flex", alignItems: "center", justifyContent: "space-between", flexDirection: "column" }} >
 
               <img className="plus" src={Plus} alt="" />
 
 
 
-              <ul className="mt-4">
-                <li className="mt-4">
+              <Box sx={{}}>
+
+              <img src={Plus} alt="" />
+              <ul className="plyaa">
+                <li>
                   <a href="#">
-                    <i className="fa-brands fa-instagram icon "></i>    </a>
+                    <Instagram className="icon" />
+                      </a>
                 </li>
-                <li className="mt-2">
+                <li >
                   <a href="#">
-                    <i className="fa-brands fa-facebook-f icon"></i>
+                    <Facebook className="icon"/>
+
                   </a>
                 </li>
-                <li className="mt-2">
+                <li >
                   <a href="#">
-                    <i className="fab fa-linkedin-in icon"></i>
+                    <LinkedIn className=" icon"/>
                   </a></li>
-                <li className="mt-2">
+                <li >
                   <a href="#">
-                    <i className="fa-brands fa-x-twitter icon"></i>
+                    <X className="icon"/>
                   </a></li>
               </ul>
+
+              </Box>
 
             </Box>
             <img className="team" alt="" />
@@ -73,23 +79,25 @@ const Team = () => {
           <CardActionArea>
             <Box sx={{ width: "50px", height: "200px", position: "absolute", top: "20px", left: "15px", display: "flex", alignItems: "center", justifyContent: "space-between", flexDirection: "column" }} >
               <img src={Plus} alt="" />
-              <ul className=" mt-4">
-                <li className="mt-4">
+              <ul className="plyaa">
+                <li>
                   <a href="#">
-                    <i className="fa-brands fa-instagram icon "></i>    </a>
+                    <Instagram className="icon" />
+                      </a>
                 </li>
-                <li className="mt-2">
+                <li >
                   <a href="#">
-                    <i className="fa-brands fa-facebook-f icon"></i>
+                    <Facebook className="icon"/>
+
                   </a>
                 </li>
-                <li className="mt-2">
+                <li >
                   <a href="#">
-                    <i className="fab fa-linkedin-in icon"></i>
+                    <LinkedIn className=" icon"/>
                   </a></li>
-                <li className="mt-2">
+                <li >
                   <a href="#">
-                    <i className="fa-brands fa-x-twitter icon"></i>
+                    <X className="icon"/>
                   </a></li>
               </ul>
 
@@ -116,28 +124,32 @@ const Team = () => {
             <Box sx={{ width: "50px", height: "200px", position: "absolute", top: "20px", left: "15px", display: "flex", alignItems: "center", justifyContent: "space-between", flexDirection: "column" }} >
               <img src={Plus} alt="" />
 
-              <ul className="mt-4">
-                <li className="mt-4">
+              <img src={Plus} alt="" />
+              <ul className="plyaa">
+                <li>
                   <a href="#">
-                    <i className="fa-brands fa-instagram icon "></i>    </a>
+                    <Instagram className="icon" />
+                      </a>
                 </li>
-                <li className="mt-2">
+                <li >
                   <a href="#">
-                    <i className="fa-brands fa-facebook-f icon"></i>
+                    <Facebook className="icon"/>
+
                   </a>
                 </li>
-                <li className="mt-2">
+                <li >
                   <a href="#">
-                    <i className="fab fa-linkedin-in icon"></i>
+                    <LinkedIn className=" icon"/>
                   </a></li>
-                <li className="mt-2">
+                <li >
                   <a href="#">
-                    <i className="fa-brands fa-x-twitter icon"></i>
+                    <X className="icon"/>
                   </a></li>
               </ul>
 
+
             </Box>
-            <img className="team1" />
+            {/* <img className="team1" /> */}
             <CardContent sx={{ width: "340px", padding: "30px", height: "150px" }}>
               <Typography color="#0160E7" gutterBottom variant="h6" component="div" sx={{ fontWeight: "700", textAlign: "center" }}>
                 Anil Meena

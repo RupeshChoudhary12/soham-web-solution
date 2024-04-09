@@ -36,42 +36,44 @@ const PageSection = () => {
                       alignItems: "start", justifyContent: "center", flexDirection: "column"  }}>
                         <img className="quato" src={Quato} alt="" />
 
-                        <p className="p">A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</p>
+                          <Typography sx={{fontSize : "13px"}}>A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</Typography>
+
                        <img src={Rating} alt="" />
-                       <div className="panda">
+
+                       <Box className="panda">
                         <img src={ramesh} alt="" />
-                        <h2 className="h6">Ramesh Kohli</h2>
-                        <p >web desigenr</p>
+                        <Typography  sx={{fontSize : "15px"}}>Ramesh kohli</Typography>
+                        <Typography >web desigenr</Typography>
                 
-                       </div>
+                       </Box>
                     </Box>
                     <Box className="client-cc" sx={{  padding:"40px 20px",border:"1px solid blue", width: "270px",  background: "white",
                     borderRadius: "5px", 
                     height: "100%", margin:"5px",
                     display: "FLEX", alignItems: "start", justifyContent: "space-between", flexDirection: "column" }}>
                         <img className="quato" src={Quato} alt="" />
-                        <p className="p">A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</p>
+                        <Typography sx={{fontSize : "13px"}}>A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</Typography>
                         <img src={Rating} alt="" />
-                        <div className="pandaa ">
+                        <Box className="pandaa ">
                         <img src={ravi} alt="" />
-                        <h2 className="h6">Ravi Yadav</h2>
-                        <p>web desigenr</p>
+                        <Typography  sx={{fontSize : "15px"}}>Ravi Yadav</Typography>
+                        <Typography>web desigenr</Typography>
                 
-                       </div>
+                       </Box>
                     </Box>
                     <Box  className="client-cc" sx={{ padding:"40px 20px",border:"1px solid blue",  width: "270px", 
                     borderRadius: "5px",
                      height: "100%", background: "white", display: "FLEX", margin:"5px", 
                      alignItems: "start", justifyContent: "center", flexDirection: "column" }}>
                         <img className="quato" src={Quato} alt="" />
-                        <p className="p">A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</p>
+                        <Typography sx={{fontSize : "13px"}}>A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</Typography>
                         <img src={Rating} alt="" />
-                        <div className="panda">
+                        <Box className="panda">
                         <img src={joy} alt="" />
-                        <h2 className="h6">Devid Joy</h2>
-                        <p >web desigenr</p>
+                        <Typography  sx={{fontSize : "15px"}}>David Joy</Typography>
+                        <Typography >web desigenr</Typography>
                 
-                       </div>
+                       </Box>
                         
                     </Box>
 
@@ -79,14 +81,14 @@ const PageSection = () => {
                      height: "100%", background: "white",  display: "FLEX",  margin:"5px",
                      alignItems: "start", justifyContent: "center", flexDirection: "column" }}>
                         <img  className="quato" src={Quato} alt="" />
-                        <p className="p">A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</p>
+                        <Typography sx={{fontSize : "13px"}}>A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</Typography>
                         <img src={Rating} alt="" />
-                        <div className="panda">
+                        <Box className="panda">
                         <img src={Sorabh} alt="" />
-                        <h2 className="h6">Sorabh Sharma</h2>
-                        <p className="h6">web desigenr</p>
+                        <Typography  sx={{fontSize : "15px"}}>Sorabh Sharma</Typography>
+                        <Typography>web desigenr</Typography>
                 
-                       </div>
+                       </Box>
                         
                     </Box>
                   
@@ -101,42 +103,43 @@ const PageSection = () => {
                       alignItems: "start", justifyContent: "center", flexDirection: "column"  }}>
                         <img className="quato" src={Quato} alt="" />
 
-                        <p className="p">A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</p>
+                        <Typography sx={{fontSize : "13px"}}>A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</Typography>
                        <img src={Rating} alt="" />
-                       <div className="panda">
+                       <Box className="panda">
                         <img src={ramesh} alt="" />
-                        <h2 className="h6">Ramesh Kohli</h2>
-                        <p >web desigenr</p>
+                        <Typography  sx={{fontSize : "15px"}}>Ramesh kohli</Typography>
+
+                        <Typography>web desigenr</Typography>
                 
-                       </div>
+                       </Box>
                     </Box>
                     <Box className="client-cc" sx={{  padding:"40px 20px",border:"1px solid blue", width: "270px", 
                     borderRadius: "5px", 
                     height: "100%", margin:"5px",
                     display: "FLEX", alignItems: "start", justifyContent: "space-between", flexDirection: "column" }}>
                         <img className="quato" src={Quato} alt="" />
-                        <p className="p">A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</p>
+                        <Typography sx={{fontSize : "13px"}}>A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</Typography>
                         <img src={Rating} alt="" />
-                        <div className="pandaa ">
+                        <Box className="pandaa ">
                         <img src={ravi} alt="" />
-                        <h2 className="h6">Ravi Yadav</h2>
-                        <p>web desigenr</p>
+                        <Typography  sx={{fontSize : "15px"}}>Ravi Yadav</Typography>
+                        <Typography>web desigenr</Typography>
                 
-                       </div>
+                       </Box>
                     </Box>
                     <Box  className="client-cc" sx={{ padding:"40px 20px",border:"1px solid blue",  width: "270px", 
                     borderRadius: "5px",
                      height: "100%", background: "white", display: "FLEX", margin:"5px", 
                      alignItems: "start", justifyContent: "center", flexDirection: "column" }}>
                         <img className="quato" src={Quato} alt="" />
-                        <p className="p">A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</p>
+                        <Typography sx={{fontSize : "13px"}}>A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</Typography>
                         <img src={Rating} alt="" />
-                        <div className="panda">
+                        <Box className="panda">
                         <img src={joy} alt="" />
-                        <h2 className="h6">Devid Joy</h2>
-                        <p >web desigenr</p>
+                        <Typography  sx={{fontSize : "15px"}}>David Joy</Typography>
+                        <Typography >web desigenr</Typography>
                 
-                       </div>
+                       </Box>
                         
                     </Box>
 
@@ -144,14 +147,14 @@ const PageSection = () => {
                      height: "100%", background: "white",  display: "FLEX",  margin:"5px",
                      alignItems: "start", justifyContent: "center", flexDirection: "column" }}>
                         <img  className="quato" src={Quato} alt="" />
-                        <p className="p">A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</p>
+                        <Typography sx={{fontSize : "13px"}}>A value passed to any given breakpoint also applies to all wider breakpoints (if they have no values explicitly defined). For example, xs={12} sizes a component to occupy the full width of its parent container, regardless of the viewport size.</Typography>
                         <img src={Rating} alt="" />
-                        <div className="panda">
+                        <Box className="panda">
                         <img src={Sorabh} alt="" />
-                        <h2 className="h6">Sorabh Sharma</h2>
-                        <p className="h6">web desigenr</p>
+                        <Typography  sx={{fontSize : "15px"}}>Sorabh sharma</Typography>
+                        <Typography>web desigenr</Typography>
                 
-                       </div>
+                       </Box>
                         
                     </Box>
                   

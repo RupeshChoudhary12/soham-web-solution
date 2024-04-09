@@ -9,6 +9,7 @@ import IconSection from "./IconSection"
 
 
 
+
 const Nav = () => {
   return (
     <>
@@ -44,8 +45,8 @@ const Nav = () => {
 
           
 
-         <Box sx={{display : "flex" , alignItems : "center" , justifyContent : "space-around" , flexWrap : "wrap" , width : "100%"}} className="home ">
-         <Link className="xy" to="/" sx={{margin:"10px" , fontSize:"100%"}}>
+         <Box sx={{display : "flex" , alignItems : "center" , justifyContent : "space-around" , flexWrap : "wrap" , width : "100%" , fontSize : "15px" }} className="home ">
+         <Link className="xy" to="/" sx={{margin:"10px" , fontSize:"100%" , }}>
             HOME
           </Link>
           <Link  className="xy" to="/about"  sx={{margin:"10px", fontSize:"100%"}}>
@@ -84,7 +85,7 @@ const Nav = () => {
       </Box>
        </Box>
             <Box className="ooff ">
-         <nav class="navbar  fixed-top">
+         {/* <nav class="navbar  fixed-top">
   <div class="container">
     <a href=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -101,7 +102,7 @@ const Nav = () => {
       <Link to="/"  sx={{margin:"10px" ,border : "0" ,  border: "0" , fontSize:"100%" , color : "Black" }}>
             HOME
           </Link>
-          <Link  to="/about"  sx={{margin:"10px", fontSize:"100%"}}>
+          <Link  to="/about"  sx={{margin:"10px", fontSize:"100%" }}>
             ABOUT
           </Link>
           <Link to="/service"  sx={{margin:"10px", fontSize:"100%"}}>
@@ -137,7 +138,8 @@ const Nav = () => {
       </div>
     </div>
   </div>
-</nav>
+</nav> */}
+
          </Box> 
        
 

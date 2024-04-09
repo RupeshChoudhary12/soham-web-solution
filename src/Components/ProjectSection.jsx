@@ -58,15 +58,15 @@ const ProjectSection = () => {
  
 
 
-    <Box className="pro mt-2" sx={{  textAlign: "center", }}>
+    <Box className="pro" sx={{  textAlign: "center", marginTop : "10px"}}>
         <img className="project-img2" src={First1} alt="" />
 
     </Box>
-    <Box className="pro mt-2" sx={{ textAlign: "center" }}>
+    <Box className="pro" sx={{ textAlign: "center" , marginTop : "10px"}}>
         <img className="project-img2" src={First2} alt="" />
 
     </Box>
-    <Box className="pro mt-2" sx={{ textAlign: "center"}}>
+    <Box className="pro" sx={{ textAlign: "center" , marginTop : "10px"}}>
         <img className="project-img2" src={First3} alt="" />
 
     </Box>
@@ -83,15 +83,15 @@ const ProjectSection = () => {
  
 
 
-    <Box className="pro  mt-2">
+    <Box className="pro " sx={{marginTop : "10px"}}>
         <img className="project-img2 mt-3" src={First4} alt="" />
 
     </Box>
-    <Box className="pro mt-2" sx={{ textAlign: "center" }}>
+    <Box className="pro" sx={{ textAlign: "center" , marginTop : "10px" }}>
         <img className="project-img2" src={First5} alt="" />
 
     </Box>
-    <Box className="pro mt-2" sx={{ textAlign: "center" }}>
+    <Box className="pro" sx={{ textAlign: "center" , marginTop : "10px"}}>
         <img className="project-img2" src={First6} alt="" />
 
     </Box>

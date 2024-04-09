@@ -14,6 +14,7 @@ import Foursec from "./Foursec"
 import Team from "./Team"
 import Parteners from "./Parteners"
 import Footer from "./Footer"
+import { ArrowForward, CheckCircleOutline, ChevronRight, Circle, Forward } from "@mui/icons-material"
 
 
 const About = () => {
@@ -23,8 +24,10 @@ const About = () => {
             <Box sx={{ background: "#d9d9d9", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", width: "100%", height: "150px" }}>
                 <Typography variant="h4" sx={{ color: "#0160E7", fontWeight: "500" }}>About</Typography>
                 <Box sx={{ display: "flex" }}>
-                    <Typography sx={{ marginRight: "15PX", color: "#FE4C1C", fontWeight: "600" }}>HOME <i class="bi bi-caret-right"></i> </Typography>
-                    <Typography>
+                    <Typography sx={{ marginRight: "15PX", color: "#FE4C1C", fontWeight: "600" }}>HOME 
+                    <ChevronRight/>
+                    </Typography>
+                    <Typography >
                         About
 
                     </Typography>
@@ -52,19 +55,24 @@ const About = () => {
                 <Box sx={{ marginLeft: "10px" }} className="new">
                     <Typography variant="" sx={{
                         color: " #FE4C1C",
-                        fontWeight: "700"
-                    }} ><li>ABOUT COMPANY</li>
+                    }} ><li className="com">ABOUT COMPANY</li>
                     </Typography>
                     <Typography variant="" sx={{
                         fontSize: "35px",
-                        fontWeight: "650", color: "black"
+                        fontWeight: "650", color: "black", marginTop : "10px"
                     }} >
                         9+Years Works Working <br /> <span className="exp" >Expriance.</span>
                     </Typography>
-                    <p>The are many variations of Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br /> Magni corporis veniam voluptatum rem, nesciunt quasi voluptatibus, placeat <br /> repellat rerum tenetur officiis eos dignissimos, laboriosam impedit?</p>
+                    <Typography sx={{marginTop : "15px"}}>The are many variations of Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br /> Magni corporis veniam voluptatum rem, nesciunt quasi voluptatibus, placeat <br /> repellat rerum tenetur officiis eos dignissimos, laboriosam impedit?</Typography>
                     <Box className="off" sx={{ marginTop: "18px" }}>
-                        <span><li className="about-li fw-bold">  <i class="bi bi-check-circle"> </i>Crative Conceptions</li>
-                            <li className="about-li fw-bold">  <i class="bi bi-check-circle"> </i>Business & Solution</li>
+                        <span>
+                        <CheckCircleOutline htmlColor="red"/>
+
+                        <Typography sx={{fontWeight : "600", fontSize : "25px"}}>Creative Conceptions</Typography>
+
+                        <CheckCircleOutline htmlColor="red"/>
+
+<Typography sx={{fontWeight : "600", fontSize : "25px"}}>Business & Solution</Typography>
 
 
 
@@ -72,10 +80,13 @@ const About = () => {
 
                         </span>
                         <span>
-                            <li className="about-li fw-bold">   <i class="bi bi-check-circle"> </i>Corporate Relationship</li>
+                        <CheckCircleOutline htmlColor="red"/>
 
+<Typography sx={{fontWeight : "600", fontSize : "25px"}}>Corporate Reationship</Typography>
+<CheckCircleOutline htmlColor="red"/>
 
-                            <li className="about-li fw-bold">   <i class="bi bi-check-circle"> </i>Mission & Wision </li>
+<Typography sx={{fontWeight : "600", fontSize : "25px"}}>Mission & Wision</Typography>
+
 
 
 
@@ -89,10 +100,10 @@ const About = () => {
 
                         <Button variant="contained" sx={{
                             height: "50px", background: " #FE4C1C", width: "195px",
-                            fontSize: "15px", borderRadius: "30px"
+                            fontSize: "15px", borderRadius: "30px" , marginTop : "25px"
                         }}>
                             Read  More
-                            <img className="forword" src={Forword} alt="" />
+                            <ArrowForward className="forword"/>
                         </Button>
                     </Box>
 
@@ -136,14 +147,14 @@ const About = () => {
                             Praesent vitae elementum nisl,
                         </Typography>
 
-                        <Box className="of" sx={{ marginTop: "18px" }}>
+                        <Box className="of " sx={{ marginTop: "18px" }}>
 
-                            <li className="about-li fw-bold">Price of additional materials operators (if needed)</li>
+                            <Typography sx={{color : "black" , fontWeight : "500" ,margin : "10px"}} gutterBottom> <Circle sx={{fontSize : "8px" }} />   Price of additional mater operators(if needed)</Typography>
 
-                            <li className="about-li fw-bold"> Transportation cost of carrying new matrial/part</li>
+                            <Typography sx={{color : "black" , fontWeight : "500" ,margin : "10px"}}><Circle sx={{fontSize : "8px" }} />  Transportation cost of carrying new matrial/Part</Typography>
 
+                            <Typography sx={{color : "black" , fontWeight : "500", margin : "10px"}}><Circle sx={{fontSize : "8px" }} />  Interpreting service is our specialty </Typography>
 
-                            <li className="about-li fw-bold">Interpreting service is our specialty</li>
 
                         </Box>
 
@@ -156,7 +167,7 @@ const About = () => {
                                 fontSize: "15px", borderRadius: "30px"
                             }}>
                                 KNOW  More
-                                <img className="forword" src={Forword} alt="" />
+                                <ArrowForward className="forword"/>
                             </Button>
                         </Box>
                     </Box>

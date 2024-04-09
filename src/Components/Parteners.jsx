@@ -26,10 +26,11 @@ const Parteners = () => {
             <Container >
                 <Box sx={{
                     width: "100%", height: "100%", display: "FLEX", alignItems: "center",
-                    justifyContent: "space-between", flexWrap: "wrap", padding: "80px 0px"
+                    justifyContent: "space-between", flexWrap: "wrap", padding: "20px",
                 }}>
                     <Box sx={{ width: "150px", borderRadius: "3px", height: "60px", background: "white", margin: "15px", display: "FLEX", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
-                        <a href="">   <img className="pt-img" src={Ford} alt="" />
+                        <a href="">  
+                         <img className="pt-img" src={Ford} alt="" />
                         </a>
                     </Box>
                     <Box sx={{ width: "150px", borderRadius: "3px", height: "60px", background: "white", margin: "15px", display: "FLEX", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>

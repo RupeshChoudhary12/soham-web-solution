@@ -5,18 +5,18 @@ import Ract3 from "../assets/rectangle3.png"
 
 const Blog = () => {
     return (
-        <Box >
+        <Box  sx={{marginTop : "40px"}}>
             <Container >
             <Box className="blog-child" sx={{  width: "70%", padding: "70px 0px"}}>
                 
-                    <Typography sx={{ color:" #FE4C1C",fontWeight: "900" , fontSize : "23px"}}>OUR BLOG</Typography>
-                    <Typography variant="h5" sx={{ marginTop: "20px", fontSize:"30px", fontWeight: "650" ,color:"black" }}>Latest From The Blog</Typography>
+                    <Typography sx={{ color:" #FE4C1C",fontWeight: "900" , fontSize : "23px" , padding : "13px 0px 0px 20px" }}>OUR BLOG</Typography>
+                    <Typography variant="h5" sx={{ marginTop: "20px", fontSize:"30px", fontWeight: "650" ,color:"black" , padding : "12px 0px 0px 20px"}}>Latest From The Blog</Typography>
                 
             </Box >
             </Container>
 
          <Container>
-         <Box sx={{display:"flex", alignItems:"center" ,justifyContent:"space-between" , flexWrap:"wrap"}}>
+         <Box sx={{display:"flex", alignItems:"center" ,justifyContent:"space-between" , flexWrap:"wrap" , padding : "12px 0px 0px 10px"}}>
                 <Box sx={{  textAlign: "center" ,display:"flex",
                  alignItems:"center", justifyContent:"center", flexDirection:"column"}}>
                     <img className="blog-img" src={React} alt="" />

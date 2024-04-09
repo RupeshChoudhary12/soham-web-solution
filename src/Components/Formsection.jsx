@@ -1,3 +1,4 @@
+import { Dvr, Email, SupportAgent } from "@mui/icons-material";
 import { Box, Button, Container, FormControl, Typography } from "@mui/material"
 import React, { useState } from 'react';
 
@@ -96,17 +97,18 @@ function FormValidation() {
                         <Box>
                             <img src="" alt="" />
                             <Box sx={{ width: "100%" }}>
-                                <Typography sx={{ color: " #FE4C1C", fontSize: "15px" }}> Send Us a Message</Typography>
-                                <Typography sx={{ fontSize: "12px", color: "gray" }}> All aspects of your software assets including purchasing,
+
+                                <Typography sx={{ color: " #FE4C1C", fontSize: "15px" , display : "flex" , gap : "10px" }}><Email sx={{ border : "1px solid #FE4C1C" , borderRadius : "50%" ,fontSize :"30px",  padding : "2px"}}/> Send Us a Message</Typography>
+                                <Typography sx={{ fontSize: "12px", color: "gray" , marginLeft : "40px" }}> All aspects of your software assets including purchasing,
                                     deployment & maintenance</Typography>
                             </Box>
                         </Box>
 
                         <Box sx={{ width: "55%" }}>
                             <img src="" alt="" />
-                            <Box>
-                                <Typography sx={{ color: " #FE4C1C", fontSize: "15px" }}>Our Staff Will Call You </Typography>
-                                <Typography sx={{ fontSize: "12px" }}>All aspects of your software assets including purchasing,
+                            <Box sx={{}}>
+                                <Typography sx={{ color: " #FE4C1C", fontSize: "18px" ,display : "flex" ,gap : "10px" }}><SupportAgent sx={{ border : "1px solid #FE4C1C" , borderRadius : "50%" ,fontSize :"30px",  padding : "2px"}}/> Our Staff Will Call You </Typography>
+                                <Typography sx={{ fontSize: "12px" , marginLeft : "40px" , color : "gray" }}>All aspects of your software assets including purchasing,
                                     deployment & maintenance</Typography>
                             </Box>
                         </Box>
@@ -114,8 +116,8 @@ function FormValidation() {
                         <Box sx={{ width: "60%" }}>
                             <img src="" alt="" />
                             <Box>
-                                <Typography sx={{ color: " #FE4C1C", fontSize: "15px" }}>Get Deal and Installment </Typography>
-                                <Typography sx={{ fontSize: "12px", color: "gray" }}>All aspects of your software assets including purchasing,
+                                <Typography sx={{ color: " #FE4C1C", fontSize: "15px" , display : "flex" , gap : "10px" }}><Dvr   sx={{ border : "1px solid #FE4C1C" , borderRadius : "50%" ,fontSize :"30px",  padding : "2px"}}/> Get Deal and Installment </Typography>
+                                <Typography sx={{ fontSize: "12px", color: "gray" , marginLeft : "40px" }}>All aspects of your software assets including purchasing,
                                     deployment & maintenance </Typography>
                             </Box>
                         </Box>
@@ -127,7 +129,7 @@ function FormValidation() {
 
 
 
-                <Box className="form2" sx={{ width: "70%", height: "100%" ,display: "flex", alignItems: " center", justifyContent: "space-evenly" ,  borderRadius: "10px" ,
+                <Box className="form2" sx={{ width: "60%", height: "100%" ,display: "flex", alignItems: " center", justifyContent: "space-evenly" ,  borderRadius: "10px" ,
                 background: "#f4d7d7" }}>
                     <FormControl onSubmit={handleSubmit} id="form" sx={{ display: "flex", alignItems: " center", justifyContent: "space-evenly" }}>
                         <Box sx={{ display: "flex", alignItems: "start", justifyContent: "start", width: "90%" }}>
@@ -187,8 +189,9 @@ function FormValidation() {
 
                   
 
-                        <textarea id="text-area"
-                            className="text-area p-1 "
+                      <Box sx={{width : "100%"}}>
+                      <textarea id="text-area"
+                            className="text-area"
                             placeholder="Write A Message"
 
                             name="textarea"
@@ -196,12 +199,13 @@ function FormValidation() {
                             rows="10"
                             type="text">
                         </textarea>
+                      </Box>
 
                         <Button type="submit" variant="contained"
                             onClick={handleSubmit}
                             sx={{
                                 marginBottom: "30px", width: "50%", borderRadius:
-                                    "30px", background: " #FE4C1C", marginTop: "15px"
+                                    "30px", background: " #FE4C1C", marginTop: "25px"
                             }}>Submit</Button>
                     </FormControl>
                 </Box >
